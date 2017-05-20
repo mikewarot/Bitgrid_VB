@@ -28,9 +28,9 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(559, 278)
+        Me.ClientSize = New System.Drawing.Size(689, 285)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Bitgrid Simulator"
         Me.ResumeLayout(False)
 
     End Sub
