@@ -106,8 +106,8 @@ Partial Class Form1
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.ButtonDown = New System.Windows.Forms.Button()
+        Me.ButtonUp = New System.Windows.Forms.Button()
         Me.ButtonLeft = New System.Windows.Forms.Button()
         Me.ButtonRight = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
@@ -943,23 +943,23 @@ Partial Class Form1
         Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(167, 17)
         Me.ToolStripStatusLabel2.Text = "Input (0,0,0,0)  Output (0,0,0,0)"
         '
-        'Button1
+        'ButtonDown
         '
-        Me.Button1.Location = New System.Drawing.Point(341, 364)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 27
-        Me.Button1.Text = "Down"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonDown.Location = New System.Drawing.Point(341, 364)
+        Me.ButtonDown.Name = "ButtonDown"
+        Me.ButtonDown.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDown.TabIndex = 27
+        Me.ButtonDown.Text = "Down"
+        Me.ButtonDown.UseVisualStyleBackColor = True
         '
-        'Button2
+        'ButtonUp
         '
-        Me.Button2.Location = New System.Drawing.Point(356, 27)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 28
-        Me.Button2.Text = "Up"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.ButtonUp.Location = New System.Drawing.Point(356, 27)
+        Me.ButtonUp.Name = "ButtonUp"
+        Me.ButtonUp.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonUp.TabIndex = 28
+        Me.ButtonUp.Text = "Up"
+        Me.ButtonUp.UseVisualStyleBackColor = True
         '
         'ButtonLeft
         '
@@ -986,8 +986,8 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(903, 415)
         Me.Controls.Add(Me.ButtonRight)
         Me.Controls.Add(Me.ButtonLeft)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ButtonUp)
+        Me.Controls.Add(Me.ButtonDown)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox5)
@@ -1104,8 +1104,8 @@ Partial Class Form1
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents ButtonDown As Button
+    Friend WithEvents ButtonUp As Button
     Friend WithEvents ButtonLeft As Button
     Friend WithEvents ButtonRight As Button
 End Class

@@ -31,6 +31,19 @@
 
     End Sub
 
+    Private Sub ButtonDown_Click(sender As Object, e As EventArgs) Handles ButtonDown.Click
+        Y = Y - 1
+        If Y < 0 Then Y = 7
+        Update_Status_Line()
+
+    End Sub
+
+    Private Sub ButtonUp_Click(sender As Object, e As EventArgs) Handles ButtonUp.Click
+        Y = Y + 1
+        If Y > 7 Then Y = 0
+        Update_Status_Line()
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         X = 0
         Y = 0
