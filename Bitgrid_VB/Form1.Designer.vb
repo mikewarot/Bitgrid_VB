@@ -140,7 +140,7 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(20, 19)
+        Me.CheckBox1.Location = New System.Drawing.Point(15, 24)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 1
@@ -149,7 +149,7 @@ Partial Class Form1
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(41, 19)
+        Me.CheckBox2.Location = New System.Drawing.Point(31, 24)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox2.TabIndex = 2
@@ -158,7 +158,7 @@ Partial Class Form1
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(83, 19)
+        Me.CheckBox3.Location = New System.Drawing.Point(64, 24)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox3.TabIndex = 4
@@ -167,7 +167,7 @@ Partial Class Form1
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(62, 19)
+        Me.CheckBox4.Location = New System.Drawing.Point(47, 24)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox4.TabIndex = 3
@@ -176,7 +176,7 @@ Partial Class Form1
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(185, 19)
+        Me.CheckBox5.Location = New System.Drawing.Point(139, 24)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox5.TabIndex = 8
@@ -185,7 +185,7 @@ Partial Class Form1
         'CheckBox6
         '
         Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(164, 19)
+        Me.CheckBox6.Location = New System.Drawing.Point(122, 24)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox6.TabIndex = 7
@@ -194,7 +194,7 @@ Partial Class Form1
         'CheckBox7
         '
         Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(143, 19)
+        Me.CheckBox7.Location = New System.Drawing.Point(105, 24)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox7.TabIndex = 6
@@ -203,7 +203,7 @@ Partial Class Form1
         'CheckBox8
         '
         Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(122, 19)
+        Me.CheckBox8.Location = New System.Drawing.Point(88, 24)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox8.TabIndex = 5
@@ -212,7 +212,7 @@ Partial Class Form1
         'CheckBox9
         '
         Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Location = New System.Drawing.Point(390, 19)
+        Me.CheckBox9.Location = New System.Drawing.Point(284, 24)
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox9.TabIndex = 16
@@ -221,7 +221,7 @@ Partial Class Form1
         'CheckBox10
         '
         Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Location = New System.Drawing.Point(369, 19)
+        Me.CheckBox10.Location = New System.Drawing.Point(267, 24)
         Me.CheckBox10.Name = "CheckBox10"
         Me.CheckBox10.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox10.TabIndex = 15
@@ -230,7 +230,7 @@ Partial Class Form1
         'CheckBox11
         '
         Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(348, 19)
+        Me.CheckBox11.Location = New System.Drawing.Point(251, 24)
         Me.CheckBox11.Name = "CheckBox11"
         Me.CheckBox11.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox11.TabIndex = 14
@@ -239,7 +239,7 @@ Partial Class Form1
         'CheckBox12
         '
         Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(327, 19)
+        Me.CheckBox12.Location = New System.Drawing.Point(235, 24)
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox12.TabIndex = 13
@@ -248,7 +248,7 @@ Partial Class Form1
         'CheckBox13
         '
         Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Location = New System.Drawing.Point(288, 19)
+        Me.CheckBox13.Location = New System.Drawing.Point(212, 24)
         Me.CheckBox13.Name = "CheckBox13"
         Me.CheckBox13.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox13.TabIndex = 12
@@ -257,7 +257,7 @@ Partial Class Form1
         'CheckBox14
         '
         Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(267, 19)
+        Me.CheckBox14.Location = New System.Drawing.Point(195, 24)
         Me.CheckBox14.Name = "CheckBox14"
         Me.CheckBox14.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox14.TabIndex = 11
@@ -266,7 +266,7 @@ Partial Class Form1
         'CheckBox15
         '
         Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(246, 19)
+        Me.CheckBox15.Location = New System.Drawing.Point(179, 24)
         Me.CheckBox15.Name = "CheckBox15"
         Me.CheckBox15.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox15.TabIndex = 10
@@ -275,7 +275,7 @@ Partial Class Form1
         'CheckBox16
         '
         Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(225, 19)
+        Me.CheckBox16.Location = New System.Drawing.Point(162, 24)
         Me.CheckBox16.Name = "CheckBox16"
         Me.CheckBox16.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox16.TabIndex = 9
@@ -301,10 +301,10 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.CheckBox5)
         Me.GroupBox1.Location = New System.Drawing.Point(236, 264)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(445, 64)
+        Me.GroupBox1.Size = New System.Drawing.Size(303, 47)
         Me.GroupBox1.TabIndex = 17
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.GroupBox1.Text = "Bottom Output"
         '
         'GroupBox2
         '
@@ -329,7 +329,7 @@ Partial Class Form1
         Me.GroupBox2.Size = New System.Drawing.Size(445, 64)
         Me.GroupBox2.TabIndex = 18
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "GroupBox2"
+        Me.GroupBox2.Text = "Top Output"
         '
         'CheckBox17
         '
@@ -498,7 +498,7 @@ Partial Class Form1
         Me.GroupBox3.Size = New System.Drawing.Size(406, 64)
         Me.GroupBox3.TabIndex = 18
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "GroupBox3"
+        Me.GroupBox3.Text = "Left Output"
         '
         'CheckBox33
         '
@@ -667,7 +667,7 @@ Partial Class Form1
         Me.GroupBox4.Size = New System.Drawing.Size(406, 64)
         Me.GroupBox4.TabIndex = 19
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "GroupBox4"
+        Me.GroupBox4.Text = "Right Output"
         '
         'CheckBox49
         '
