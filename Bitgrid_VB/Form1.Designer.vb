@@ -110,6 +110,9 @@ Partial Class Form1
         Me.ButtonUp = New System.Windows.Forms.Button()
         Me.ButtonLeft = New System.Windows.Forms.Button()
         Me.ButtonRight = New System.Windows.Forms.Button()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.XNavigationWrapped = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YNavigationWrapped = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -122,7 +125,7 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.HelpToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.ToolStripMenuItem1, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(903, 24)
@@ -979,6 +982,31 @@ Partial Class Form1
         Me.ButtonRight.Text = "Right"
         Me.ButtonRight.UseVisualStyleBackColor = True
         '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XNavigationWrapped, Me.YNavigationWrapped})
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(61, 20)
+        Me.ToolStripMenuItem1.Text = "&Options"
+        '
+        'XNavigationWrapped
+        '
+        Me.XNavigationWrapped.Checked = True
+        Me.XNavigationWrapped.CheckOnClick = True
+        Me.XNavigationWrapped.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.XNavigationWrapped.Name = "XNavigationWrapped"
+        Me.XNavigationWrapped.Size = New System.Drawing.Size(189, 22)
+        Me.XNavigationWrapped.Text = "X navigation wrapped"
+        '
+        'YNavigationWrapped
+        '
+        Me.YNavigationWrapped.Checked = True
+        Me.YNavigationWrapped.CheckOnClick = True
+        Me.YNavigationWrapped.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.YNavigationWrapped.Name = "YNavigationWrapped"
+        Me.YNavigationWrapped.Size = New System.Drawing.Size(189, 22)
+        Me.YNavigationWrapped.Text = "Y navigation wrapped"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1108,4 +1136,7 @@ Partial Class Form1
     Friend WithEvents ButtonUp As Button
     Friend WithEvents ButtonLeft As Button
     Friend WithEvents ButtonRight As Button
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents XNavigationWrapped As ToolStripMenuItem
+    Friend WithEvents YNavigationWrapped As ToolStripMenuItem
 End Class
