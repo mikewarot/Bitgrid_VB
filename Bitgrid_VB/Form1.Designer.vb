@@ -108,8 +108,8 @@ Partial Class Form1
         Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.ButtonLeft = New System.Windows.Forms.Button()
+        Me.ButtonRight = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -838,7 +838,6 @@ Partial Class Form1
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(84, 17)
         Me.RadioButton1.TabIndex = 21
-        Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Override ON"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
@@ -861,7 +860,6 @@ Partial Class Form1
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(88, 17)
         Me.RadioButton3.TabIndex = 23
-        Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "Override OFF"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
@@ -896,7 +894,6 @@ Partial Class Form1
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(84, 17)
         Me.RadioButton4.TabIndex = 21
-        Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "Override ON"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
@@ -907,7 +904,6 @@ Partial Class Form1
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(88, 17)
         Me.RadioButton5.TabIndex = 23
-        Me.RadioButton5.TabStop = True
         Me.RadioButton5.Text = "Override OFF"
         Me.RadioButton5.UseVisualStyleBackColor = True
         '
@@ -965,31 +961,31 @@ Partial Class Form1
         Me.Button2.Text = "Up"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Button3
+        'ButtonLeft
         '
-        Me.Button3.Location = New System.Drawing.Point(0, 169)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 29
-        Me.Button3.Text = "Left"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.ButtonLeft.Location = New System.Drawing.Point(0, 169)
+        Me.ButtonLeft.Name = "ButtonLeft"
+        Me.ButtonLeft.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonLeft.TabIndex = 29
+        Me.ButtonLeft.Text = "Left"
+        Me.ButtonLeft.UseVisualStyleBackColor = True
         '
-        'Button4
+        'ButtonRight
         '
-        Me.Button4.Location = New System.Drawing.Point(798, 173)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 30
-        Me.Button4.Text = "Right"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.ButtonRight.Location = New System.Drawing.Point(798, 173)
+        Me.ButtonRight.Name = "ButtonRight"
+        Me.ButtonRight.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonRight.TabIndex = 30
+        Me.ButtonRight.Text = "Right"
+        Me.ButtonRight.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(903, 415)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.ButtonRight)
+        Me.Controls.Add(Me.ButtonLeft)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.StatusStrip1)
@@ -1110,6 +1106,6 @@ Partial Class Form1
     Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents ButtonLeft As Button
+    Friend WithEvents ButtonRight As Button
 End Class
