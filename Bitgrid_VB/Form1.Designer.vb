@@ -95,11 +95,21 @@ Partial Class Form1
         Me.CheckBox62 = New System.Windows.Forms.CheckBox()
         Me.CheckBox63 = New System.Windows.Forms.CheckBox()
         Me.CheckBox64 = New System.Windows.Forms.CheckBox()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -140,7 +150,7 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(15, 24)
+        Me.CheckBox1.Location = New System.Drawing.Point(13, 24)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 1
@@ -149,7 +159,7 @@ Partial Class Form1
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(31, 24)
+        Me.CheckBox2.Location = New System.Drawing.Point(29, 24)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox2.TabIndex = 2
@@ -158,7 +168,7 @@ Partial Class Form1
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(46, 24)
+        Me.CheckBox3.Location = New System.Drawing.Point(45, 24)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox3.TabIndex = 3
@@ -167,7 +177,7 @@ Partial Class Form1
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(62, 24)
+        Me.CheckBox4.Location = New System.Drawing.Point(61, 24)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox4.TabIndex = 4
@@ -176,7 +186,7 @@ Partial Class Form1
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(87, 24)
+        Me.CheckBox5.Location = New System.Drawing.Point(86, 24)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox5.TabIndex = 5
@@ -185,7 +195,7 @@ Partial Class Form1
         'CheckBox6
         '
         Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(104, 24)
+        Me.CheckBox6.Location = New System.Drawing.Point(102, 24)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox6.TabIndex = 6
@@ -194,7 +204,7 @@ Partial Class Form1
         'CheckBox7
         '
         Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(120, 24)
+        Me.CheckBox7.Location = New System.Drawing.Point(118, 24)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox7.TabIndex = 7
@@ -203,7 +213,7 @@ Partial Class Form1
         'CheckBox8
         '
         Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(137, 24)
+        Me.CheckBox8.Location = New System.Drawing.Point(134, 24)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox8.TabIndex = 8
@@ -212,7 +222,7 @@ Partial Class Form1
         'CheckBox9
         '
         Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Location = New System.Drawing.Point(162, 24)
+        Me.CheckBox9.Location = New System.Drawing.Point(13, 44)
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox9.TabIndex = 9
@@ -221,7 +231,7 @@ Partial Class Form1
         'CheckBox10
         '
         Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Location = New System.Drawing.Point(178, 24)
+        Me.CheckBox10.Location = New System.Drawing.Point(29, 44)
         Me.CheckBox10.Name = "CheckBox10"
         Me.CheckBox10.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox10.TabIndex = 10
@@ -230,7 +240,7 @@ Partial Class Form1
         'CheckBox11
         '
         Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(194, 24)
+        Me.CheckBox11.Location = New System.Drawing.Point(45, 44)
         Me.CheckBox11.Name = "CheckBox11"
         Me.CheckBox11.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox11.TabIndex = 11
@@ -239,7 +249,7 @@ Partial Class Form1
         'CheckBox12
         '
         Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(210, 24)
+        Me.CheckBox12.Location = New System.Drawing.Point(61, 44)
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox12.TabIndex = 12
@@ -248,7 +258,7 @@ Partial Class Form1
         'CheckBox13
         '
         Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Location = New System.Drawing.Point(236, 24)
+        Me.CheckBox13.Location = New System.Drawing.Point(86, 44)
         Me.CheckBox13.Name = "CheckBox13"
         Me.CheckBox13.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox13.TabIndex = 13
@@ -257,7 +267,7 @@ Partial Class Form1
         'CheckBox14
         '
         Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(252, 24)
+        Me.CheckBox14.Location = New System.Drawing.Point(102, 44)
         Me.CheckBox14.Name = "CheckBox14"
         Me.CheckBox14.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox14.TabIndex = 14
@@ -266,7 +276,7 @@ Partial Class Form1
         'CheckBox15
         '
         Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(269, 24)
+        Me.CheckBox15.Location = New System.Drawing.Point(118, 44)
         Me.CheckBox15.Name = "CheckBox15"
         Me.CheckBox15.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox15.TabIndex = 15
@@ -275,7 +285,7 @@ Partial Class Form1
         'CheckBox16
         '
         Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(286, 24)
+        Me.CheckBox16.Location = New System.Drawing.Point(135, 44)
         Me.CheckBox16.Name = "CheckBox16"
         Me.CheckBox16.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox16.TabIndex = 16
@@ -299,12 +309,12 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.CheckBox14)
         Me.GroupBox1.Controls.Add(Me.CheckBox15)
         Me.GroupBox1.Controls.Add(Me.CheckBox16)
-        Me.GroupBox1.Location = New System.Drawing.Point(236, 264)
+        Me.GroupBox1.Location = New System.Drawing.Point(319, 264)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(303, 47)
+        Me.GroupBox1.Size = New System.Drawing.Size(152, 90)
         Me.GroupBox1.TabIndex = 17
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Bottom Output"
+        Me.GroupBox1.Text = "Bottom Program"
         '
         'GroupBox2
         '
@@ -813,11 +823,105 @@ Partial Class Form1
         Me.CheckBox64.TabIndex = 16
         Me.CheckBox64.UseVisualStyleBackColor = True
         '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(84, 17)
+        Me.RadioButton1.TabIndex = 21
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Override ON"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Checked = True
+        Me.RadioButton2.Location = New System.Drawing.Point(6, 41)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton2.TabIndex = 22
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "normal"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(6, 64)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton3.TabIndex = 23
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "Override OFF"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.RadioButton1)
+        Me.GroupBox5.Controls.Add(Me.RadioButton3)
+        Me.GroupBox5.Controls.Add(Me.RadioButton2)
+        Me.GroupBox5.Location = New System.Drawing.Point(206, 264)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(107, 90)
+        Me.GroupBox5.TabIndex = 24
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Bottom Input"
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.RadioButton4)
+        Me.GroupBox6.Controls.Add(Me.RadioButton5)
+        Me.GroupBox6.Controls.Add(Me.RadioButton6)
+        Me.GroupBox6.Location = New System.Drawing.Point(477, 264)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(107, 90)
+        Me.GroupBox6.TabIndex = 25
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "Bottom Output"
+        '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(84, 17)
+        Me.RadioButton4.TabIndex = 21
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "Override ON"
+        Me.RadioButton4.UseVisualStyleBackColor = True
+        '
+        'RadioButton5
+        '
+        Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.Location = New System.Drawing.Point(6, 64)
+        Me.RadioButton5.Name = "RadioButton5"
+        Me.RadioButton5.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton5.TabIndex = 23
+        Me.RadioButton5.TabStop = True
+        Me.RadioButton5.Text = "Override OFF"
+        Me.RadioButton5.UseVisualStyleBackColor = True
+        '
+        'RadioButton6
+        '
+        Me.RadioButton6.AutoSize = True
+        Me.RadioButton6.Checked = True
+        Me.RadioButton6.Location = New System.Drawing.Point(6, 41)
+        Me.RadioButton6.Name = "RadioButton6"
+        Me.RadioButton6.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton6.TabIndex = 22
+        Me.RadioButton6.TabStop = True
+        Me.RadioButton6.Text = "normal"
+        Me.RadioButton6.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(903, 415)
+        Me.Controls.Add(Me.GroupBox6)
+        Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
@@ -836,6 +940,10 @@ Partial Class Form1
         Me.GroupBox3.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox6.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -914,4 +1022,12 @@ Partial Class Form1
     Friend WithEvents CheckBox62 As CheckBox
     Friend WithEvents CheckBox63 As CheckBox
     Friend WithEvents CheckBox64 As CheckBox
+    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents RadioButton3 As RadioButton
+    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents RadioButton4 As RadioButton
+    Friend WithEvents RadioButton5 As RadioButton
+    Friend WithEvents RadioButton6 As RadioButton
 End Class
