@@ -11,13 +11,9 @@
         MsgBox("Bitgrid Simulator - Version 0.0001", MsgBoxStyle.OkCancel)
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
-
-    End Sub
-
     Private Sub Update_Status_Line
         ToolStripStatusLabel1.Text = "Cell(" & X.ToString & "," & Y.ToString & ")"
-        ToolStripStatusLabel2.Text = "Input(" & InputBits.ToString("X2") & ")  Output(" & "0" & ")"
+        ToolStripStatusLabel2.Text = "Input(" & InputBits.ToString("X") & ")  Output(" & "0" & ")"
     End Sub
 
     Private Sub ButtonRight_Click(sender As Object, e As EventArgs) Handles ButtonRight.Click
