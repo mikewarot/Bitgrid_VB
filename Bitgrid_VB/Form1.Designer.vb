@@ -25,6 +25,9 @@ Partial Class Form1
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.XNavigationWrapped = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YNavigationWrapped = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutBitgridSimulatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
@@ -44,7 +47,30 @@ Partial Class Form1
         Me.CheckBox15 = New System.Windows.Forms.CheckBox()
         Me.CheckBox16 = New System.Windows.Forms.CheckBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ButtonDown = New System.Windows.Forms.Button()
+        Me.ButtonUp = New System.Windows.Forms.Button()
+        Me.ButtonLeft = New System.Windows.Forms.Button()
+        Me.ButtonRight = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.CheckBox17 = New System.Windows.Forms.CheckBox()
         Me.CheckBox18 = New System.Windows.Forms.CheckBox()
         Me.CheckBox19 = New System.Windows.Forms.CheckBox()
@@ -61,66 +87,70 @@ Partial Class Form1
         Me.CheckBox30 = New System.Windows.Forms.CheckBox()
         Me.CheckBox31 = New System.Windows.Forms.CheckBox()
         Me.CheckBox32 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox33 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox34 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox35 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox36 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox37 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox38 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox39 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox40 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox41 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox42 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox43 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox44 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox45 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox46 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox47 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox48 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox49 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox50 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox51 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox52 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox53 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox54 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox55 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox56 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox57 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox58 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox59 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox60 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox61 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox62 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox63 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox64 = New System.Windows.Forms.CheckBox()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.ButtonDown = New System.Windows.Forms.Button()
-        Me.ButtonUp = New System.Windows.Forms.Button()
-        Me.ButtonLeft = New System.Windows.Forms.Button()
-        Me.ButtonRight = New System.Windows.Forms.Button()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.XNavigationWrapped = New System.Windows.Forms.ToolStripMenuItem()
-        Me.YNavigationWrapped = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton14 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton17 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox65 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox66 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox67 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox68 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox69 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox70 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox71 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox72 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox73 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox74 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox75 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox76 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox77 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox78 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox79 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox80 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton19 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton20 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton21 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton22 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton23 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton24 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox81 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox82 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox83 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox84 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox85 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox86 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox87 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox88 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox89 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox90 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox91 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox92 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox93 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox94 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox95 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox96 = New System.Windows.Forms.CheckBox()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox7.SuspendLayout()
+        Me.GroupBox8.SuspendLayout()
+        Me.GroupBox9.SuspendLayout()
+        Me.GroupBox10.SuspendLayout()
+        Me.GroupBox11.SuspendLayout()
+        Me.GroupBox12.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -144,6 +174,31 @@ Partial Class Form1
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(92, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XNavigationWrapped, Me.YNavigationWrapped})
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(61, 20)
+        Me.ToolStripMenuItem1.Text = "&Options"
+        '
+        'XNavigationWrapped
+        '
+        Me.XNavigationWrapped.Checked = True
+        Me.XNavigationWrapped.CheckOnClick = True
+        Me.XNavigationWrapped.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.XNavigationWrapped.Name = "XNavigationWrapped"
+        Me.XNavigationWrapped.Size = New System.Drawing.Size(189, 22)
+        Me.XNavigationWrapped.Text = "X navigation wrapped"
+        '
+        'YNavigationWrapped
+        '
+        Me.YNavigationWrapped.Checked = True
+        Me.YNavigationWrapped.CheckOnClick = True
+        Me.YNavigationWrapped.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.YNavigationWrapped.Name = "YNavigationWrapped"
+        Me.YNavigationWrapped.Size = New System.Drawing.Size(189, 22)
+        Me.YNavigationWrapped.Text = "Y navigation wrapped"
         '
         'HelpToolStripMenuItem
         '
@@ -320,519 +375,12 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.CheckBox14)
         Me.GroupBox1.Controls.Add(Me.CheckBox15)
         Me.GroupBox1.Controls.Add(Me.CheckBox16)
-        Me.GroupBox1.Location = New System.Drawing.Point(319, 264)
+        Me.GroupBox1.Location = New System.Drawing.Point(363, 261)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(152, 90)
         Me.GroupBox1.TabIndex = 17
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Bottom Program"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.CheckBox17)
-        Me.GroupBox2.Controls.Add(Me.CheckBox18)
-        Me.GroupBox2.Controls.Add(Me.CheckBox19)
-        Me.GroupBox2.Controls.Add(Me.CheckBox20)
-        Me.GroupBox2.Controls.Add(Me.CheckBox21)
-        Me.GroupBox2.Controls.Add(Me.CheckBox22)
-        Me.GroupBox2.Controls.Add(Me.CheckBox23)
-        Me.GroupBox2.Controls.Add(Me.CheckBox24)
-        Me.GroupBox2.Controls.Add(Me.CheckBox25)
-        Me.GroupBox2.Controls.Add(Me.CheckBox26)
-        Me.GroupBox2.Controls.Add(Me.CheckBox27)
-        Me.GroupBox2.Controls.Add(Me.CheckBox28)
-        Me.GroupBox2.Controls.Add(Me.CheckBox29)
-        Me.GroupBox2.Controls.Add(Me.CheckBox30)
-        Me.GroupBox2.Controls.Add(Me.CheckBox31)
-        Me.GroupBox2.Controls.Add(Me.CheckBox32)
-        Me.GroupBox2.Location = New System.Drawing.Point(246, 73)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(303, 47)
-        Me.GroupBox2.TabIndex = 18
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Top Output"
-        '
-        'CheckBox17
-        '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.Location = New System.Drawing.Point(15, 24)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox17.TabIndex = 1
-        Me.CheckBox17.UseVisualStyleBackColor = True
-        '
-        'CheckBox18
-        '
-        Me.CheckBox18.AutoSize = True
-        Me.CheckBox18.Location = New System.Drawing.Point(31, 24)
-        Me.CheckBox18.Name = "CheckBox18"
-        Me.CheckBox18.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox18.TabIndex = 2
-        Me.CheckBox18.UseVisualStyleBackColor = True
-        '
-        'CheckBox19
-        '
-        Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.Location = New System.Drawing.Point(46, 24)
-        Me.CheckBox19.Name = "CheckBox19"
-        Me.CheckBox19.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox19.TabIndex = 3
-        Me.CheckBox19.UseVisualStyleBackColor = True
-        '
-        'CheckBox20
-        '
-        Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.Location = New System.Drawing.Point(62, 24)
-        Me.CheckBox20.Name = "CheckBox20"
-        Me.CheckBox20.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox20.TabIndex = 4
-        Me.CheckBox20.UseVisualStyleBackColor = True
-        '
-        'CheckBox21
-        '
-        Me.CheckBox21.AutoSize = True
-        Me.CheckBox21.Location = New System.Drawing.Point(87, 24)
-        Me.CheckBox21.Name = "CheckBox21"
-        Me.CheckBox21.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox21.TabIndex = 5
-        Me.CheckBox21.UseVisualStyleBackColor = True
-        '
-        'CheckBox22
-        '
-        Me.CheckBox22.AutoSize = True
-        Me.CheckBox22.Location = New System.Drawing.Point(104, 24)
-        Me.CheckBox22.Name = "CheckBox22"
-        Me.CheckBox22.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox22.TabIndex = 6
-        Me.CheckBox22.UseVisualStyleBackColor = True
-        '
-        'CheckBox23
-        '
-        Me.CheckBox23.AutoSize = True
-        Me.CheckBox23.Location = New System.Drawing.Point(120, 24)
-        Me.CheckBox23.Name = "CheckBox23"
-        Me.CheckBox23.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox23.TabIndex = 7
-        Me.CheckBox23.UseVisualStyleBackColor = True
-        '
-        'CheckBox24
-        '
-        Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.Location = New System.Drawing.Point(137, 24)
-        Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox24.TabIndex = 8
-        Me.CheckBox24.UseVisualStyleBackColor = True
-        '
-        'CheckBox25
-        '
-        Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.Location = New System.Drawing.Point(162, 24)
-        Me.CheckBox25.Name = "CheckBox25"
-        Me.CheckBox25.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox25.TabIndex = 9
-        Me.CheckBox25.UseVisualStyleBackColor = True
-        '
-        'CheckBox26
-        '
-        Me.CheckBox26.AutoSize = True
-        Me.CheckBox26.Location = New System.Drawing.Point(178, 24)
-        Me.CheckBox26.Name = "CheckBox26"
-        Me.CheckBox26.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox26.TabIndex = 10
-        Me.CheckBox26.UseVisualStyleBackColor = True
-        '
-        'CheckBox27
-        '
-        Me.CheckBox27.AutoSize = True
-        Me.CheckBox27.Location = New System.Drawing.Point(194, 24)
-        Me.CheckBox27.Name = "CheckBox27"
-        Me.CheckBox27.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox27.TabIndex = 11
-        Me.CheckBox27.UseVisualStyleBackColor = True
-        '
-        'CheckBox28
-        '
-        Me.CheckBox28.AutoSize = True
-        Me.CheckBox28.Location = New System.Drawing.Point(210, 24)
-        Me.CheckBox28.Name = "CheckBox28"
-        Me.CheckBox28.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox28.TabIndex = 12
-        Me.CheckBox28.UseVisualStyleBackColor = True
-        '
-        'CheckBox29
-        '
-        Me.CheckBox29.AutoSize = True
-        Me.CheckBox29.Location = New System.Drawing.Point(236, 24)
-        Me.CheckBox29.Name = "CheckBox29"
-        Me.CheckBox29.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox29.TabIndex = 13
-        Me.CheckBox29.UseVisualStyleBackColor = True
-        '
-        'CheckBox30
-        '
-        Me.CheckBox30.AutoSize = True
-        Me.CheckBox30.Location = New System.Drawing.Point(252, 24)
-        Me.CheckBox30.Name = "CheckBox30"
-        Me.CheckBox30.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox30.TabIndex = 14
-        Me.CheckBox30.UseVisualStyleBackColor = True
-        '
-        'CheckBox31
-        '
-        Me.CheckBox31.AutoSize = True
-        Me.CheckBox31.Location = New System.Drawing.Point(269, 24)
-        Me.CheckBox31.Name = "CheckBox31"
-        Me.CheckBox31.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox31.TabIndex = 15
-        Me.CheckBox31.UseVisualStyleBackColor = True
-        '
-        'CheckBox32
-        '
-        Me.CheckBox32.AutoSize = True
-        Me.CheckBox32.Location = New System.Drawing.Point(286, 24)
-        Me.CheckBox32.Name = "CheckBox32"
-        Me.CheckBox32.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox32.TabIndex = 16
-        Me.CheckBox32.UseVisualStyleBackColor = True
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.CheckBox33)
-        Me.GroupBox3.Controls.Add(Me.CheckBox34)
-        Me.GroupBox3.Controls.Add(Me.CheckBox35)
-        Me.GroupBox3.Controls.Add(Me.CheckBox36)
-        Me.GroupBox3.Controls.Add(Me.CheckBox37)
-        Me.GroupBox3.Controls.Add(Me.CheckBox38)
-        Me.GroupBox3.Controls.Add(Me.CheckBox39)
-        Me.GroupBox3.Controls.Add(Me.CheckBox40)
-        Me.GroupBox3.Controls.Add(Me.CheckBox41)
-        Me.GroupBox3.Controls.Add(Me.CheckBox42)
-        Me.GroupBox3.Controls.Add(Me.CheckBox43)
-        Me.GroupBox3.Controls.Add(Me.CheckBox44)
-        Me.GroupBox3.Controls.Add(Me.CheckBox45)
-        Me.GroupBox3.Controls.Add(Me.CheckBox46)
-        Me.GroupBox3.Controls.Add(Me.CheckBox47)
-        Me.GroupBox3.Controls.Add(Me.CheckBox48)
-        Me.GroupBox3.Location = New System.Drawing.Point(92, 154)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(303, 47)
-        Me.GroupBox3.TabIndex = 19
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Left Output"
-        '
-        'CheckBox33
-        '
-        Me.CheckBox33.AutoSize = True
-        Me.CheckBox33.Location = New System.Drawing.Point(15, 24)
-        Me.CheckBox33.Name = "CheckBox33"
-        Me.CheckBox33.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox33.TabIndex = 1
-        Me.CheckBox33.UseVisualStyleBackColor = True
-        '
-        'CheckBox34
-        '
-        Me.CheckBox34.AutoSize = True
-        Me.CheckBox34.Location = New System.Drawing.Point(31, 24)
-        Me.CheckBox34.Name = "CheckBox34"
-        Me.CheckBox34.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox34.TabIndex = 2
-        Me.CheckBox34.UseVisualStyleBackColor = True
-        '
-        'CheckBox35
-        '
-        Me.CheckBox35.AutoSize = True
-        Me.CheckBox35.Location = New System.Drawing.Point(46, 24)
-        Me.CheckBox35.Name = "CheckBox35"
-        Me.CheckBox35.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox35.TabIndex = 3
-        Me.CheckBox35.UseVisualStyleBackColor = True
-        '
-        'CheckBox36
-        '
-        Me.CheckBox36.AutoSize = True
-        Me.CheckBox36.Location = New System.Drawing.Point(62, 24)
-        Me.CheckBox36.Name = "CheckBox36"
-        Me.CheckBox36.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox36.TabIndex = 4
-        Me.CheckBox36.UseVisualStyleBackColor = True
-        '
-        'CheckBox37
-        '
-        Me.CheckBox37.AutoSize = True
-        Me.CheckBox37.Location = New System.Drawing.Point(87, 24)
-        Me.CheckBox37.Name = "CheckBox37"
-        Me.CheckBox37.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox37.TabIndex = 5
-        Me.CheckBox37.UseVisualStyleBackColor = True
-        '
-        'CheckBox38
-        '
-        Me.CheckBox38.AutoSize = True
-        Me.CheckBox38.Location = New System.Drawing.Point(104, 24)
-        Me.CheckBox38.Name = "CheckBox38"
-        Me.CheckBox38.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox38.TabIndex = 6
-        Me.CheckBox38.UseVisualStyleBackColor = True
-        '
-        'CheckBox39
-        '
-        Me.CheckBox39.AutoSize = True
-        Me.CheckBox39.Location = New System.Drawing.Point(120, 24)
-        Me.CheckBox39.Name = "CheckBox39"
-        Me.CheckBox39.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox39.TabIndex = 7
-        Me.CheckBox39.UseVisualStyleBackColor = True
-        '
-        'CheckBox40
-        '
-        Me.CheckBox40.AutoSize = True
-        Me.CheckBox40.Location = New System.Drawing.Point(137, 24)
-        Me.CheckBox40.Name = "CheckBox40"
-        Me.CheckBox40.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox40.TabIndex = 8
-        Me.CheckBox40.UseVisualStyleBackColor = True
-        '
-        'CheckBox41
-        '
-        Me.CheckBox41.AutoSize = True
-        Me.CheckBox41.Location = New System.Drawing.Point(162, 24)
-        Me.CheckBox41.Name = "CheckBox41"
-        Me.CheckBox41.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox41.TabIndex = 9
-        Me.CheckBox41.UseVisualStyleBackColor = True
-        '
-        'CheckBox42
-        '
-        Me.CheckBox42.AutoSize = True
-        Me.CheckBox42.Location = New System.Drawing.Point(178, 24)
-        Me.CheckBox42.Name = "CheckBox42"
-        Me.CheckBox42.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox42.TabIndex = 10
-        Me.CheckBox42.UseVisualStyleBackColor = True
-        '
-        'CheckBox43
-        '
-        Me.CheckBox43.AutoSize = True
-        Me.CheckBox43.Location = New System.Drawing.Point(194, 24)
-        Me.CheckBox43.Name = "CheckBox43"
-        Me.CheckBox43.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox43.TabIndex = 11
-        Me.CheckBox43.UseVisualStyleBackColor = True
-        '
-        'CheckBox44
-        '
-        Me.CheckBox44.AutoSize = True
-        Me.CheckBox44.Location = New System.Drawing.Point(210, 24)
-        Me.CheckBox44.Name = "CheckBox44"
-        Me.CheckBox44.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox44.TabIndex = 12
-        Me.CheckBox44.UseVisualStyleBackColor = True
-        '
-        'CheckBox45
-        '
-        Me.CheckBox45.AutoSize = True
-        Me.CheckBox45.Location = New System.Drawing.Point(236, 24)
-        Me.CheckBox45.Name = "CheckBox45"
-        Me.CheckBox45.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox45.TabIndex = 13
-        Me.CheckBox45.UseVisualStyleBackColor = True
-        '
-        'CheckBox46
-        '
-        Me.CheckBox46.AutoSize = True
-        Me.CheckBox46.Location = New System.Drawing.Point(252, 24)
-        Me.CheckBox46.Name = "CheckBox46"
-        Me.CheckBox46.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox46.TabIndex = 14
-        Me.CheckBox46.UseVisualStyleBackColor = True
-        '
-        'CheckBox47
-        '
-        Me.CheckBox47.AutoSize = True
-        Me.CheckBox47.Location = New System.Drawing.Point(269, 24)
-        Me.CheckBox47.Name = "CheckBox47"
-        Me.CheckBox47.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox47.TabIndex = 15
-        Me.CheckBox47.UseVisualStyleBackColor = True
-        '
-        'CheckBox48
-        '
-        Me.CheckBox48.AutoSize = True
-        Me.CheckBox48.Location = New System.Drawing.Point(286, 24)
-        Me.CheckBox48.Name = "CheckBox48"
-        Me.CheckBox48.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox48.TabIndex = 16
-        Me.CheckBox48.UseVisualStyleBackColor = True
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Controls.Add(Me.CheckBox49)
-        Me.GroupBox4.Controls.Add(Me.CheckBox50)
-        Me.GroupBox4.Controls.Add(Me.CheckBox51)
-        Me.GroupBox4.Controls.Add(Me.CheckBox52)
-        Me.GroupBox4.Controls.Add(Me.CheckBox53)
-        Me.GroupBox4.Controls.Add(Me.CheckBox54)
-        Me.GroupBox4.Controls.Add(Me.CheckBox55)
-        Me.GroupBox4.Controls.Add(Me.CheckBox56)
-        Me.GroupBox4.Controls.Add(Me.CheckBox57)
-        Me.GroupBox4.Controls.Add(Me.CheckBox58)
-        Me.GroupBox4.Controls.Add(Me.CheckBox59)
-        Me.GroupBox4.Controls.Add(Me.CheckBox60)
-        Me.GroupBox4.Controls.Add(Me.CheckBox61)
-        Me.GroupBox4.Controls.Add(Me.CheckBox62)
-        Me.GroupBox4.Controls.Add(Me.CheckBox63)
-        Me.GroupBox4.Controls.Add(Me.CheckBox64)
-        Me.GroupBox4.Location = New System.Drawing.Point(414, 154)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(303, 47)
-        Me.GroupBox4.TabIndex = 20
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Right Output"
-        '
-        'CheckBox49
-        '
-        Me.CheckBox49.AutoSize = True
-        Me.CheckBox49.Location = New System.Drawing.Point(15, 24)
-        Me.CheckBox49.Name = "CheckBox49"
-        Me.CheckBox49.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox49.TabIndex = 1
-        Me.CheckBox49.UseVisualStyleBackColor = True
-        '
-        'CheckBox50
-        '
-        Me.CheckBox50.AutoSize = True
-        Me.CheckBox50.Location = New System.Drawing.Point(31, 24)
-        Me.CheckBox50.Name = "CheckBox50"
-        Me.CheckBox50.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox50.TabIndex = 2
-        Me.CheckBox50.UseVisualStyleBackColor = True
-        '
-        'CheckBox51
-        '
-        Me.CheckBox51.AutoSize = True
-        Me.CheckBox51.Location = New System.Drawing.Point(46, 24)
-        Me.CheckBox51.Name = "CheckBox51"
-        Me.CheckBox51.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox51.TabIndex = 3
-        Me.CheckBox51.UseVisualStyleBackColor = True
-        '
-        'CheckBox52
-        '
-        Me.CheckBox52.AutoSize = True
-        Me.CheckBox52.Location = New System.Drawing.Point(62, 24)
-        Me.CheckBox52.Name = "CheckBox52"
-        Me.CheckBox52.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox52.TabIndex = 4
-        Me.CheckBox52.UseVisualStyleBackColor = True
-        '
-        'CheckBox53
-        '
-        Me.CheckBox53.AutoSize = True
-        Me.CheckBox53.Location = New System.Drawing.Point(87, 24)
-        Me.CheckBox53.Name = "CheckBox53"
-        Me.CheckBox53.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox53.TabIndex = 5
-        Me.CheckBox53.UseVisualStyleBackColor = True
-        '
-        'CheckBox54
-        '
-        Me.CheckBox54.AutoSize = True
-        Me.CheckBox54.Location = New System.Drawing.Point(104, 24)
-        Me.CheckBox54.Name = "CheckBox54"
-        Me.CheckBox54.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox54.TabIndex = 6
-        Me.CheckBox54.UseVisualStyleBackColor = True
-        '
-        'CheckBox55
-        '
-        Me.CheckBox55.AutoSize = True
-        Me.CheckBox55.Location = New System.Drawing.Point(120, 24)
-        Me.CheckBox55.Name = "CheckBox55"
-        Me.CheckBox55.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox55.TabIndex = 7
-        Me.CheckBox55.UseVisualStyleBackColor = True
-        '
-        'CheckBox56
-        '
-        Me.CheckBox56.AutoSize = True
-        Me.CheckBox56.Location = New System.Drawing.Point(137, 24)
-        Me.CheckBox56.Name = "CheckBox56"
-        Me.CheckBox56.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox56.TabIndex = 8
-        Me.CheckBox56.UseVisualStyleBackColor = True
-        '
-        'CheckBox57
-        '
-        Me.CheckBox57.AutoSize = True
-        Me.CheckBox57.Location = New System.Drawing.Point(162, 24)
-        Me.CheckBox57.Name = "CheckBox57"
-        Me.CheckBox57.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox57.TabIndex = 9
-        Me.CheckBox57.UseVisualStyleBackColor = True
-        '
-        'CheckBox58
-        '
-        Me.CheckBox58.AutoSize = True
-        Me.CheckBox58.Location = New System.Drawing.Point(178, 24)
-        Me.CheckBox58.Name = "CheckBox58"
-        Me.CheckBox58.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox58.TabIndex = 10
-        Me.CheckBox58.UseVisualStyleBackColor = True
-        '
-        'CheckBox59
-        '
-        Me.CheckBox59.AutoSize = True
-        Me.CheckBox59.Location = New System.Drawing.Point(194, 24)
-        Me.CheckBox59.Name = "CheckBox59"
-        Me.CheckBox59.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox59.TabIndex = 11
-        Me.CheckBox59.UseVisualStyleBackColor = True
-        '
-        'CheckBox60
-        '
-        Me.CheckBox60.AutoSize = True
-        Me.CheckBox60.Location = New System.Drawing.Point(210, 24)
-        Me.CheckBox60.Name = "CheckBox60"
-        Me.CheckBox60.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox60.TabIndex = 12
-        Me.CheckBox60.UseVisualStyleBackColor = True
-        '
-        'CheckBox61
-        '
-        Me.CheckBox61.AutoSize = True
-        Me.CheckBox61.Location = New System.Drawing.Point(236, 24)
-        Me.CheckBox61.Name = "CheckBox61"
-        Me.CheckBox61.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox61.TabIndex = 13
-        Me.CheckBox61.UseVisualStyleBackColor = True
-        '
-        'CheckBox62
-        '
-        Me.CheckBox62.AutoSize = True
-        Me.CheckBox62.Location = New System.Drawing.Point(252, 24)
-        Me.CheckBox62.Name = "CheckBox62"
-        Me.CheckBox62.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox62.TabIndex = 14
-        Me.CheckBox62.UseVisualStyleBackColor = True
-        '
-        'CheckBox63
-        '
-        Me.CheckBox63.AutoSize = True
-        Me.CheckBox63.Location = New System.Drawing.Point(269, 24)
-        Me.CheckBox63.Name = "CheckBox63"
-        Me.CheckBox63.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox63.TabIndex = 15
-        Me.CheckBox63.UseVisualStyleBackColor = True
-        '
-        'CheckBox64
-        '
-        Me.CheckBox64.AutoSize = True
-        Me.CheckBox64.Location = New System.Drawing.Point(286, 24)
-        Me.CheckBox64.Name = "CheckBox64"
-        Me.CheckBox64.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox64.TabIndex = 16
-        Me.CheckBox64.UseVisualStyleBackColor = True
         '
         'RadioButton1
         '
@@ -871,7 +419,7 @@ Partial Class Form1
         Me.GroupBox5.Controls.Add(Me.RadioButton1)
         Me.GroupBox5.Controls.Add(Me.RadioButton3)
         Me.GroupBox5.Controls.Add(Me.RadioButton2)
-        Me.GroupBox5.Location = New System.Drawing.Point(206, 264)
+        Me.GroupBox5.Location = New System.Drawing.Point(250, 261)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(107, 90)
         Me.GroupBox5.TabIndex = 24
@@ -883,7 +431,7 @@ Partial Class Form1
         Me.GroupBox6.Controls.Add(Me.RadioButton4)
         Me.GroupBox6.Controls.Add(Me.RadioButton5)
         Me.GroupBox6.Controls.Add(Me.RadioButton6)
-        Me.GroupBox6.Location = New System.Drawing.Point(477, 264)
+        Me.GroupBox6.Location = New System.Drawing.Point(521, 261)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(107, 90)
         Me.GroupBox6.TabIndex = 25
@@ -948,7 +496,7 @@ Partial Class Form1
         '
         'ButtonDown
         '
-        Me.ButtonDown.Location = New System.Drawing.Point(341, 364)
+        Me.ButtonDown.Location = New System.Drawing.Point(405, 367)
         Me.ButtonDown.Name = "ButtonDown"
         Me.ButtonDown.Size = New System.Drawing.Size(75, 23)
         Me.ButtonDown.TabIndex = 27
@@ -957,7 +505,7 @@ Partial Class Form1
         '
         'ButtonUp
         '
-        Me.ButtonUp.Location = New System.Drawing.Point(356, 27)
+        Me.ButtonUp.Location = New System.Drawing.Point(405, 27)
         Me.ButtonUp.Name = "ButtonUp"
         Me.ButtonUp.Size = New System.Drawing.Size(75, 23)
         Me.ButtonUp.TabIndex = 28
@@ -966,52 +514,807 @@ Partial Class Form1
         '
         'ButtonLeft
         '
-        Me.ButtonLeft.Location = New System.Drawing.Point(0, 169)
+        Me.ButtonLeft.Location = New System.Drawing.Point(0, 181)
         Me.ButtonLeft.Name = "ButtonLeft"
-        Me.ButtonLeft.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonLeft.Size = New System.Drawing.Size(45, 23)
         Me.ButtonLeft.TabIndex = 29
         Me.ButtonLeft.Text = "Left"
         Me.ButtonLeft.UseVisualStyleBackColor = True
         '
         'ButtonRight
         '
-        Me.ButtonRight.Location = New System.Drawing.Point(798, 173)
+        Me.ButtonRight.Location = New System.Drawing.Point(858, 178)
         Me.ButtonRight.Name = "ButtonRight"
-        Me.ButtonRight.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonRight.Size = New System.Drawing.Size(45, 23)
         Me.ButtonRight.TabIndex = 30
         Me.ButtonRight.Text = "Right"
         Me.ButtonRight.UseVisualStyleBackColor = True
         '
-        'ToolStripMenuItem1
+        'GroupBox2
         '
-        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XNavigationWrapped, Me.YNavigationWrapped})
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(61, 20)
-        Me.ToolStripMenuItem1.Text = "&Options"
+        Me.GroupBox2.Controls.Add(Me.RadioButton7)
+        Me.GroupBox2.Controls.Add(Me.RadioButton8)
+        Me.GroupBox2.Controls.Add(Me.RadioButton9)
+        Me.GroupBox2.Location = New System.Drawing.Point(521, 67)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(107, 90)
+        Me.GroupBox2.TabIndex = 33
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Top Output"
         '
-        'XNavigationWrapped
+        'RadioButton7
         '
-        Me.XNavigationWrapped.Checked = True
-        Me.XNavigationWrapped.CheckOnClick = True
-        Me.XNavigationWrapped.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.XNavigationWrapped.Name = "XNavigationWrapped"
-        Me.XNavigationWrapped.Size = New System.Drawing.Size(189, 22)
-        Me.XNavigationWrapped.Text = "X navigation wrapped"
+        Me.RadioButton7.AutoSize = True
+        Me.RadioButton7.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton7.Name = "RadioButton7"
+        Me.RadioButton7.Size = New System.Drawing.Size(84, 17)
+        Me.RadioButton7.TabIndex = 21
+        Me.RadioButton7.Text = "Override ON"
+        Me.RadioButton7.UseVisualStyleBackColor = True
         '
-        'YNavigationWrapped
+        'RadioButton8
         '
-        Me.YNavigationWrapped.Checked = True
-        Me.YNavigationWrapped.CheckOnClick = True
-        Me.YNavigationWrapped.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.YNavigationWrapped.Name = "YNavigationWrapped"
-        Me.YNavigationWrapped.Size = New System.Drawing.Size(189, 22)
-        Me.YNavigationWrapped.Text = "Y navigation wrapped"
+        Me.RadioButton8.AutoSize = True
+        Me.RadioButton8.Location = New System.Drawing.Point(6, 64)
+        Me.RadioButton8.Name = "RadioButton8"
+        Me.RadioButton8.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton8.TabIndex = 23
+        Me.RadioButton8.Text = "Override OFF"
+        Me.RadioButton8.UseVisualStyleBackColor = True
+        '
+        'RadioButton9
+        '
+        Me.RadioButton9.AutoSize = True
+        Me.RadioButton9.Checked = True
+        Me.RadioButton9.Location = New System.Drawing.Point(6, 41)
+        Me.RadioButton9.Name = "RadioButton9"
+        Me.RadioButton9.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton9.TabIndex = 22
+        Me.RadioButton9.TabStop = True
+        Me.RadioButton9.Text = "normal"
+        Me.RadioButton9.UseVisualStyleBackColor = True
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.RadioButton10)
+        Me.GroupBox3.Controls.Add(Me.RadioButton11)
+        Me.GroupBox3.Controls.Add(Me.RadioButton12)
+        Me.GroupBox3.Location = New System.Drawing.Point(250, 67)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(107, 90)
+        Me.GroupBox3.TabIndex = 32
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Top Input"
+        '
+        'RadioButton10
+        '
+        Me.RadioButton10.AutoSize = True
+        Me.RadioButton10.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton10.Name = "RadioButton10"
+        Me.RadioButton10.Size = New System.Drawing.Size(84, 17)
+        Me.RadioButton10.TabIndex = 21
+        Me.RadioButton10.Text = "Override ON"
+        Me.RadioButton10.UseVisualStyleBackColor = True
+        '
+        'RadioButton11
+        '
+        Me.RadioButton11.AutoSize = True
+        Me.RadioButton11.Location = New System.Drawing.Point(6, 64)
+        Me.RadioButton11.Name = "RadioButton11"
+        Me.RadioButton11.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton11.TabIndex = 23
+        Me.RadioButton11.Text = "Override OFF"
+        Me.RadioButton11.UseVisualStyleBackColor = True
+        '
+        'RadioButton12
+        '
+        Me.RadioButton12.AutoSize = True
+        Me.RadioButton12.Checked = True
+        Me.RadioButton12.Location = New System.Drawing.Point(6, 41)
+        Me.RadioButton12.Name = "RadioButton12"
+        Me.RadioButton12.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton12.TabIndex = 22
+        Me.RadioButton12.TabStop = True
+        Me.RadioButton12.Text = "normal"
+        Me.RadioButton12.UseVisualStyleBackColor = True
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.CheckBox17)
+        Me.GroupBox4.Controls.Add(Me.CheckBox18)
+        Me.GroupBox4.Controls.Add(Me.CheckBox19)
+        Me.GroupBox4.Controls.Add(Me.CheckBox20)
+        Me.GroupBox4.Controls.Add(Me.CheckBox21)
+        Me.GroupBox4.Controls.Add(Me.CheckBox22)
+        Me.GroupBox4.Controls.Add(Me.CheckBox23)
+        Me.GroupBox4.Controls.Add(Me.CheckBox24)
+        Me.GroupBox4.Controls.Add(Me.CheckBox25)
+        Me.GroupBox4.Controls.Add(Me.CheckBox26)
+        Me.GroupBox4.Controls.Add(Me.CheckBox27)
+        Me.GroupBox4.Controls.Add(Me.CheckBox28)
+        Me.GroupBox4.Controls.Add(Me.CheckBox29)
+        Me.GroupBox4.Controls.Add(Me.CheckBox30)
+        Me.GroupBox4.Controls.Add(Me.CheckBox31)
+        Me.GroupBox4.Controls.Add(Me.CheckBox32)
+        Me.GroupBox4.Location = New System.Drawing.Point(363, 67)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(152, 90)
+        Me.GroupBox4.TabIndex = 31
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Top Program"
+        '
+        'CheckBox17
+        '
+        Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.Location = New System.Drawing.Point(13, 24)
+        Me.CheckBox17.Name = "CheckBox17"
+        Me.CheckBox17.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox17.TabIndex = 1
+        Me.CheckBox17.UseVisualStyleBackColor = True
+        '
+        'CheckBox18
+        '
+        Me.CheckBox18.AutoSize = True
+        Me.CheckBox18.Location = New System.Drawing.Point(29, 24)
+        Me.CheckBox18.Name = "CheckBox18"
+        Me.CheckBox18.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox18.TabIndex = 2
+        Me.CheckBox18.UseVisualStyleBackColor = True
+        '
+        'CheckBox19
+        '
+        Me.CheckBox19.AutoSize = True
+        Me.CheckBox19.Location = New System.Drawing.Point(45, 24)
+        Me.CheckBox19.Name = "CheckBox19"
+        Me.CheckBox19.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox19.TabIndex = 3
+        Me.CheckBox19.UseVisualStyleBackColor = True
+        '
+        'CheckBox20
+        '
+        Me.CheckBox20.AutoSize = True
+        Me.CheckBox20.Location = New System.Drawing.Point(61, 24)
+        Me.CheckBox20.Name = "CheckBox20"
+        Me.CheckBox20.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox20.TabIndex = 4
+        Me.CheckBox20.UseVisualStyleBackColor = True
+        '
+        'CheckBox21
+        '
+        Me.CheckBox21.AutoSize = True
+        Me.CheckBox21.Location = New System.Drawing.Point(86, 24)
+        Me.CheckBox21.Name = "CheckBox21"
+        Me.CheckBox21.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox21.TabIndex = 5
+        Me.CheckBox21.UseVisualStyleBackColor = True
+        '
+        'CheckBox22
+        '
+        Me.CheckBox22.AutoSize = True
+        Me.CheckBox22.Location = New System.Drawing.Point(102, 24)
+        Me.CheckBox22.Name = "CheckBox22"
+        Me.CheckBox22.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox22.TabIndex = 6
+        Me.CheckBox22.UseVisualStyleBackColor = True
+        '
+        'CheckBox23
+        '
+        Me.CheckBox23.AutoSize = True
+        Me.CheckBox23.Location = New System.Drawing.Point(118, 24)
+        Me.CheckBox23.Name = "CheckBox23"
+        Me.CheckBox23.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox23.TabIndex = 7
+        Me.CheckBox23.UseVisualStyleBackColor = True
+        '
+        'CheckBox24
+        '
+        Me.CheckBox24.AutoSize = True
+        Me.CheckBox24.Location = New System.Drawing.Point(134, 24)
+        Me.CheckBox24.Name = "CheckBox24"
+        Me.CheckBox24.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox24.TabIndex = 8
+        Me.CheckBox24.UseVisualStyleBackColor = True
+        '
+        'CheckBox25
+        '
+        Me.CheckBox25.AutoSize = True
+        Me.CheckBox25.Location = New System.Drawing.Point(13, 44)
+        Me.CheckBox25.Name = "CheckBox25"
+        Me.CheckBox25.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox25.TabIndex = 9
+        Me.CheckBox25.UseVisualStyleBackColor = True
+        '
+        'CheckBox26
+        '
+        Me.CheckBox26.AutoSize = True
+        Me.CheckBox26.Location = New System.Drawing.Point(29, 44)
+        Me.CheckBox26.Name = "CheckBox26"
+        Me.CheckBox26.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox26.TabIndex = 10
+        Me.CheckBox26.UseVisualStyleBackColor = True
+        '
+        'CheckBox27
+        '
+        Me.CheckBox27.AutoSize = True
+        Me.CheckBox27.Location = New System.Drawing.Point(45, 44)
+        Me.CheckBox27.Name = "CheckBox27"
+        Me.CheckBox27.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox27.TabIndex = 11
+        Me.CheckBox27.UseVisualStyleBackColor = True
+        '
+        'CheckBox28
+        '
+        Me.CheckBox28.AutoSize = True
+        Me.CheckBox28.Location = New System.Drawing.Point(61, 44)
+        Me.CheckBox28.Name = "CheckBox28"
+        Me.CheckBox28.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox28.TabIndex = 12
+        Me.CheckBox28.UseVisualStyleBackColor = True
+        '
+        'CheckBox29
+        '
+        Me.CheckBox29.AutoSize = True
+        Me.CheckBox29.Location = New System.Drawing.Point(86, 44)
+        Me.CheckBox29.Name = "CheckBox29"
+        Me.CheckBox29.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox29.TabIndex = 13
+        Me.CheckBox29.UseVisualStyleBackColor = True
+        '
+        'CheckBox30
+        '
+        Me.CheckBox30.AutoSize = True
+        Me.CheckBox30.Location = New System.Drawing.Point(102, 44)
+        Me.CheckBox30.Name = "CheckBox30"
+        Me.CheckBox30.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox30.TabIndex = 14
+        Me.CheckBox30.UseVisualStyleBackColor = True
+        '
+        'CheckBox31
+        '
+        Me.CheckBox31.AutoSize = True
+        Me.CheckBox31.Location = New System.Drawing.Point(118, 44)
+        Me.CheckBox31.Name = "CheckBox31"
+        Me.CheckBox31.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox31.TabIndex = 15
+        Me.CheckBox31.UseVisualStyleBackColor = True
+        '
+        'CheckBox32
+        '
+        Me.CheckBox32.AutoSize = True
+        Me.CheckBox32.Location = New System.Drawing.Point(135, 44)
+        Me.CheckBox32.Name = "CheckBox32"
+        Me.CheckBox32.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox32.TabIndex = 16
+        Me.CheckBox32.UseVisualStyleBackColor = True
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.Controls.Add(Me.RadioButton13)
+        Me.GroupBox7.Controls.Add(Me.RadioButton14)
+        Me.GroupBox7.Controls.Add(Me.RadioButton15)
+        Me.GroupBox7.Location = New System.Drawing.Point(322, 161)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(107, 90)
+        Me.GroupBox7.TabIndex = 36
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "Left Output"
+        '
+        'RadioButton13
+        '
+        Me.RadioButton13.AutoSize = True
+        Me.RadioButton13.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton13.Name = "RadioButton13"
+        Me.RadioButton13.Size = New System.Drawing.Size(84, 17)
+        Me.RadioButton13.TabIndex = 21
+        Me.RadioButton13.Text = "Override ON"
+        Me.RadioButton13.UseVisualStyleBackColor = True
+        '
+        'RadioButton14
+        '
+        Me.RadioButton14.AutoSize = True
+        Me.RadioButton14.Location = New System.Drawing.Point(6, 64)
+        Me.RadioButton14.Name = "RadioButton14"
+        Me.RadioButton14.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton14.TabIndex = 23
+        Me.RadioButton14.Text = "Override OFF"
+        Me.RadioButton14.UseVisualStyleBackColor = True
+        '
+        'RadioButton15
+        '
+        Me.RadioButton15.AutoSize = True
+        Me.RadioButton15.Checked = True
+        Me.RadioButton15.Location = New System.Drawing.Point(6, 41)
+        Me.RadioButton15.Name = "RadioButton15"
+        Me.RadioButton15.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton15.TabIndex = 22
+        Me.RadioButton15.TabStop = True
+        Me.RadioButton15.Text = "normal"
+        Me.RadioButton15.UseVisualStyleBackColor = True
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.Controls.Add(Me.RadioButton16)
+        Me.GroupBox8.Controls.Add(Me.RadioButton17)
+        Me.GroupBox8.Controls.Add(Me.RadioButton18)
+        Me.GroupBox8.Location = New System.Drawing.Point(51, 161)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(107, 90)
+        Me.GroupBox8.TabIndex = 35
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "Left Input"
+        '
+        'RadioButton16
+        '
+        Me.RadioButton16.AutoSize = True
+        Me.RadioButton16.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton16.Name = "RadioButton16"
+        Me.RadioButton16.Size = New System.Drawing.Size(84, 17)
+        Me.RadioButton16.TabIndex = 21
+        Me.RadioButton16.Text = "Override ON"
+        Me.RadioButton16.UseVisualStyleBackColor = True
+        '
+        'RadioButton17
+        '
+        Me.RadioButton17.AutoSize = True
+        Me.RadioButton17.Location = New System.Drawing.Point(6, 64)
+        Me.RadioButton17.Name = "RadioButton17"
+        Me.RadioButton17.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton17.TabIndex = 23
+        Me.RadioButton17.Text = "Override OFF"
+        Me.RadioButton17.UseVisualStyleBackColor = True
+        '
+        'RadioButton18
+        '
+        Me.RadioButton18.AutoSize = True
+        Me.RadioButton18.Checked = True
+        Me.RadioButton18.Location = New System.Drawing.Point(6, 41)
+        Me.RadioButton18.Name = "RadioButton18"
+        Me.RadioButton18.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton18.TabIndex = 22
+        Me.RadioButton18.TabStop = True
+        Me.RadioButton18.Text = "normal"
+        Me.RadioButton18.UseVisualStyleBackColor = True
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.Controls.Add(Me.CheckBox65)
+        Me.GroupBox9.Controls.Add(Me.CheckBox66)
+        Me.GroupBox9.Controls.Add(Me.CheckBox67)
+        Me.GroupBox9.Controls.Add(Me.CheckBox68)
+        Me.GroupBox9.Controls.Add(Me.CheckBox69)
+        Me.GroupBox9.Controls.Add(Me.CheckBox70)
+        Me.GroupBox9.Controls.Add(Me.CheckBox71)
+        Me.GroupBox9.Controls.Add(Me.CheckBox72)
+        Me.GroupBox9.Controls.Add(Me.CheckBox73)
+        Me.GroupBox9.Controls.Add(Me.CheckBox74)
+        Me.GroupBox9.Controls.Add(Me.CheckBox75)
+        Me.GroupBox9.Controls.Add(Me.CheckBox76)
+        Me.GroupBox9.Controls.Add(Me.CheckBox77)
+        Me.GroupBox9.Controls.Add(Me.CheckBox78)
+        Me.GroupBox9.Controls.Add(Me.CheckBox79)
+        Me.GroupBox9.Controls.Add(Me.CheckBox80)
+        Me.GroupBox9.Location = New System.Drawing.Point(164, 161)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(152, 90)
+        Me.GroupBox9.TabIndex = 34
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = "Left Program"
+        '
+        'CheckBox65
+        '
+        Me.CheckBox65.AutoSize = True
+        Me.CheckBox65.Location = New System.Drawing.Point(13, 24)
+        Me.CheckBox65.Name = "CheckBox65"
+        Me.CheckBox65.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox65.TabIndex = 1
+        Me.CheckBox65.UseVisualStyleBackColor = True
+        '
+        'CheckBox66
+        '
+        Me.CheckBox66.AutoSize = True
+        Me.CheckBox66.Location = New System.Drawing.Point(29, 24)
+        Me.CheckBox66.Name = "CheckBox66"
+        Me.CheckBox66.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox66.TabIndex = 2
+        Me.CheckBox66.UseVisualStyleBackColor = True
+        '
+        'CheckBox67
+        '
+        Me.CheckBox67.AutoSize = True
+        Me.CheckBox67.Location = New System.Drawing.Point(45, 24)
+        Me.CheckBox67.Name = "CheckBox67"
+        Me.CheckBox67.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox67.TabIndex = 3
+        Me.CheckBox67.UseVisualStyleBackColor = True
+        '
+        'CheckBox68
+        '
+        Me.CheckBox68.AutoSize = True
+        Me.CheckBox68.Location = New System.Drawing.Point(61, 24)
+        Me.CheckBox68.Name = "CheckBox68"
+        Me.CheckBox68.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox68.TabIndex = 4
+        Me.CheckBox68.UseVisualStyleBackColor = True
+        '
+        'CheckBox69
+        '
+        Me.CheckBox69.AutoSize = True
+        Me.CheckBox69.Location = New System.Drawing.Point(86, 24)
+        Me.CheckBox69.Name = "CheckBox69"
+        Me.CheckBox69.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox69.TabIndex = 5
+        Me.CheckBox69.UseVisualStyleBackColor = True
+        '
+        'CheckBox70
+        '
+        Me.CheckBox70.AutoSize = True
+        Me.CheckBox70.Location = New System.Drawing.Point(102, 24)
+        Me.CheckBox70.Name = "CheckBox70"
+        Me.CheckBox70.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox70.TabIndex = 6
+        Me.CheckBox70.UseVisualStyleBackColor = True
+        '
+        'CheckBox71
+        '
+        Me.CheckBox71.AutoSize = True
+        Me.CheckBox71.Location = New System.Drawing.Point(118, 24)
+        Me.CheckBox71.Name = "CheckBox71"
+        Me.CheckBox71.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox71.TabIndex = 7
+        Me.CheckBox71.UseVisualStyleBackColor = True
+        '
+        'CheckBox72
+        '
+        Me.CheckBox72.AutoSize = True
+        Me.CheckBox72.Location = New System.Drawing.Point(134, 24)
+        Me.CheckBox72.Name = "CheckBox72"
+        Me.CheckBox72.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox72.TabIndex = 8
+        Me.CheckBox72.UseVisualStyleBackColor = True
+        '
+        'CheckBox73
+        '
+        Me.CheckBox73.AutoSize = True
+        Me.CheckBox73.Location = New System.Drawing.Point(13, 44)
+        Me.CheckBox73.Name = "CheckBox73"
+        Me.CheckBox73.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox73.TabIndex = 9
+        Me.CheckBox73.UseVisualStyleBackColor = True
+        '
+        'CheckBox74
+        '
+        Me.CheckBox74.AutoSize = True
+        Me.CheckBox74.Location = New System.Drawing.Point(29, 44)
+        Me.CheckBox74.Name = "CheckBox74"
+        Me.CheckBox74.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox74.TabIndex = 10
+        Me.CheckBox74.UseVisualStyleBackColor = True
+        '
+        'CheckBox75
+        '
+        Me.CheckBox75.AutoSize = True
+        Me.CheckBox75.Location = New System.Drawing.Point(45, 44)
+        Me.CheckBox75.Name = "CheckBox75"
+        Me.CheckBox75.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox75.TabIndex = 11
+        Me.CheckBox75.UseVisualStyleBackColor = True
+        '
+        'CheckBox76
+        '
+        Me.CheckBox76.AutoSize = True
+        Me.CheckBox76.Location = New System.Drawing.Point(61, 44)
+        Me.CheckBox76.Name = "CheckBox76"
+        Me.CheckBox76.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox76.TabIndex = 12
+        Me.CheckBox76.UseVisualStyleBackColor = True
+        '
+        'CheckBox77
+        '
+        Me.CheckBox77.AutoSize = True
+        Me.CheckBox77.Location = New System.Drawing.Point(86, 44)
+        Me.CheckBox77.Name = "CheckBox77"
+        Me.CheckBox77.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox77.TabIndex = 13
+        Me.CheckBox77.UseVisualStyleBackColor = True
+        '
+        'CheckBox78
+        '
+        Me.CheckBox78.AutoSize = True
+        Me.CheckBox78.Location = New System.Drawing.Point(102, 44)
+        Me.CheckBox78.Name = "CheckBox78"
+        Me.CheckBox78.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox78.TabIndex = 14
+        Me.CheckBox78.UseVisualStyleBackColor = True
+        '
+        'CheckBox79
+        '
+        Me.CheckBox79.AutoSize = True
+        Me.CheckBox79.Location = New System.Drawing.Point(118, 44)
+        Me.CheckBox79.Name = "CheckBox79"
+        Me.CheckBox79.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox79.TabIndex = 15
+        Me.CheckBox79.UseVisualStyleBackColor = True
+        '
+        'CheckBox80
+        '
+        Me.CheckBox80.AutoSize = True
+        Me.CheckBox80.Location = New System.Drawing.Point(135, 44)
+        Me.CheckBox80.Name = "CheckBox80"
+        Me.CheckBox80.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox80.TabIndex = 16
+        Me.CheckBox80.UseVisualStyleBackColor = True
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.Controls.Add(Me.RadioButton19)
+        Me.GroupBox10.Controls.Add(Me.RadioButton20)
+        Me.GroupBox10.Controls.Add(Me.RadioButton21)
+        Me.GroupBox10.Location = New System.Drawing.Point(745, 161)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Size = New System.Drawing.Size(107, 90)
+        Me.GroupBox10.TabIndex = 39
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "Right Output"
+        '
+        'RadioButton19
+        '
+        Me.RadioButton19.AutoSize = True
+        Me.RadioButton19.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton19.Name = "RadioButton19"
+        Me.RadioButton19.Size = New System.Drawing.Size(84, 17)
+        Me.RadioButton19.TabIndex = 21
+        Me.RadioButton19.Text = "Override ON"
+        Me.RadioButton19.UseVisualStyleBackColor = True
+        '
+        'RadioButton20
+        '
+        Me.RadioButton20.AutoSize = True
+        Me.RadioButton20.Location = New System.Drawing.Point(6, 64)
+        Me.RadioButton20.Name = "RadioButton20"
+        Me.RadioButton20.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton20.TabIndex = 23
+        Me.RadioButton20.Text = "Override OFF"
+        Me.RadioButton20.UseVisualStyleBackColor = True
+        '
+        'RadioButton21
+        '
+        Me.RadioButton21.AutoSize = True
+        Me.RadioButton21.Checked = True
+        Me.RadioButton21.Location = New System.Drawing.Point(6, 41)
+        Me.RadioButton21.Name = "RadioButton21"
+        Me.RadioButton21.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton21.TabIndex = 22
+        Me.RadioButton21.TabStop = True
+        Me.RadioButton21.Text = "normal"
+        Me.RadioButton21.UseVisualStyleBackColor = True
+        '
+        'GroupBox11
+        '
+        Me.GroupBox11.Controls.Add(Me.RadioButton22)
+        Me.GroupBox11.Controls.Add(Me.RadioButton23)
+        Me.GroupBox11.Controls.Add(Me.RadioButton24)
+        Me.GroupBox11.Location = New System.Drawing.Point(474, 161)
+        Me.GroupBox11.Name = "GroupBox11"
+        Me.GroupBox11.Size = New System.Drawing.Size(107, 90)
+        Me.GroupBox11.TabIndex = 38
+        Me.GroupBox11.TabStop = False
+        Me.GroupBox11.Text = "Right Input"
+        '
+        'RadioButton22
+        '
+        Me.RadioButton22.AutoSize = True
+        Me.RadioButton22.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton22.Name = "RadioButton22"
+        Me.RadioButton22.Size = New System.Drawing.Size(84, 17)
+        Me.RadioButton22.TabIndex = 21
+        Me.RadioButton22.Text = "Override ON"
+        Me.RadioButton22.UseVisualStyleBackColor = True
+        '
+        'RadioButton23
+        '
+        Me.RadioButton23.AutoSize = True
+        Me.RadioButton23.Location = New System.Drawing.Point(6, 64)
+        Me.RadioButton23.Name = "RadioButton23"
+        Me.RadioButton23.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton23.TabIndex = 23
+        Me.RadioButton23.Text = "Override OFF"
+        Me.RadioButton23.UseVisualStyleBackColor = True
+        '
+        'RadioButton24
+        '
+        Me.RadioButton24.AutoSize = True
+        Me.RadioButton24.Checked = True
+        Me.RadioButton24.Location = New System.Drawing.Point(6, 41)
+        Me.RadioButton24.Name = "RadioButton24"
+        Me.RadioButton24.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton24.TabIndex = 22
+        Me.RadioButton24.TabStop = True
+        Me.RadioButton24.Text = "normal"
+        Me.RadioButton24.UseVisualStyleBackColor = True
+        '
+        'GroupBox12
+        '
+        Me.GroupBox12.Controls.Add(Me.CheckBox81)
+        Me.GroupBox12.Controls.Add(Me.CheckBox82)
+        Me.GroupBox12.Controls.Add(Me.CheckBox83)
+        Me.GroupBox12.Controls.Add(Me.CheckBox84)
+        Me.GroupBox12.Controls.Add(Me.CheckBox85)
+        Me.GroupBox12.Controls.Add(Me.CheckBox86)
+        Me.GroupBox12.Controls.Add(Me.CheckBox87)
+        Me.GroupBox12.Controls.Add(Me.CheckBox88)
+        Me.GroupBox12.Controls.Add(Me.CheckBox89)
+        Me.GroupBox12.Controls.Add(Me.CheckBox90)
+        Me.GroupBox12.Controls.Add(Me.CheckBox91)
+        Me.GroupBox12.Controls.Add(Me.CheckBox92)
+        Me.GroupBox12.Controls.Add(Me.CheckBox93)
+        Me.GroupBox12.Controls.Add(Me.CheckBox94)
+        Me.GroupBox12.Controls.Add(Me.CheckBox95)
+        Me.GroupBox12.Controls.Add(Me.CheckBox96)
+        Me.GroupBox12.Location = New System.Drawing.Point(587, 161)
+        Me.GroupBox12.Name = "GroupBox12"
+        Me.GroupBox12.Size = New System.Drawing.Size(152, 90)
+        Me.GroupBox12.TabIndex = 37
+        Me.GroupBox12.TabStop = False
+        Me.GroupBox12.Text = "Right Program"
+        '
+        'CheckBox81
+        '
+        Me.CheckBox81.AutoSize = True
+        Me.CheckBox81.Location = New System.Drawing.Point(13, 24)
+        Me.CheckBox81.Name = "CheckBox81"
+        Me.CheckBox81.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox81.TabIndex = 1
+        Me.CheckBox81.UseVisualStyleBackColor = True
+        '
+        'CheckBox82
+        '
+        Me.CheckBox82.AutoSize = True
+        Me.CheckBox82.Location = New System.Drawing.Point(29, 24)
+        Me.CheckBox82.Name = "CheckBox82"
+        Me.CheckBox82.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox82.TabIndex = 2
+        Me.CheckBox82.UseVisualStyleBackColor = True
+        '
+        'CheckBox83
+        '
+        Me.CheckBox83.AutoSize = True
+        Me.CheckBox83.Location = New System.Drawing.Point(45, 24)
+        Me.CheckBox83.Name = "CheckBox83"
+        Me.CheckBox83.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox83.TabIndex = 3
+        Me.CheckBox83.UseVisualStyleBackColor = True
+        '
+        'CheckBox84
+        '
+        Me.CheckBox84.AutoSize = True
+        Me.CheckBox84.Location = New System.Drawing.Point(61, 24)
+        Me.CheckBox84.Name = "CheckBox84"
+        Me.CheckBox84.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox84.TabIndex = 4
+        Me.CheckBox84.UseVisualStyleBackColor = True
+        '
+        'CheckBox85
+        '
+        Me.CheckBox85.AutoSize = True
+        Me.CheckBox85.Location = New System.Drawing.Point(86, 24)
+        Me.CheckBox85.Name = "CheckBox85"
+        Me.CheckBox85.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox85.TabIndex = 5
+        Me.CheckBox85.UseVisualStyleBackColor = True
+        '
+        'CheckBox86
+        '
+        Me.CheckBox86.AutoSize = True
+        Me.CheckBox86.Location = New System.Drawing.Point(102, 24)
+        Me.CheckBox86.Name = "CheckBox86"
+        Me.CheckBox86.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox86.TabIndex = 6
+        Me.CheckBox86.UseVisualStyleBackColor = True
+        '
+        'CheckBox87
+        '
+        Me.CheckBox87.AutoSize = True
+        Me.CheckBox87.Location = New System.Drawing.Point(118, 24)
+        Me.CheckBox87.Name = "CheckBox87"
+        Me.CheckBox87.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox87.TabIndex = 7
+        Me.CheckBox87.UseVisualStyleBackColor = True
+        '
+        'CheckBox88
+        '
+        Me.CheckBox88.AutoSize = True
+        Me.CheckBox88.Location = New System.Drawing.Point(134, 24)
+        Me.CheckBox88.Name = "CheckBox88"
+        Me.CheckBox88.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox88.TabIndex = 8
+        Me.CheckBox88.UseVisualStyleBackColor = True
+        '
+        'CheckBox89
+        '
+        Me.CheckBox89.AutoSize = True
+        Me.CheckBox89.Location = New System.Drawing.Point(13, 44)
+        Me.CheckBox89.Name = "CheckBox89"
+        Me.CheckBox89.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox89.TabIndex = 9
+        Me.CheckBox89.UseVisualStyleBackColor = True
+        '
+        'CheckBox90
+        '
+        Me.CheckBox90.AutoSize = True
+        Me.CheckBox90.Location = New System.Drawing.Point(29, 44)
+        Me.CheckBox90.Name = "CheckBox90"
+        Me.CheckBox90.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox90.TabIndex = 10
+        Me.CheckBox90.UseVisualStyleBackColor = True
+        '
+        'CheckBox91
+        '
+        Me.CheckBox91.AutoSize = True
+        Me.CheckBox91.Location = New System.Drawing.Point(45, 44)
+        Me.CheckBox91.Name = "CheckBox91"
+        Me.CheckBox91.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox91.TabIndex = 11
+        Me.CheckBox91.UseVisualStyleBackColor = True
+        '
+        'CheckBox92
+        '
+        Me.CheckBox92.AutoSize = True
+        Me.CheckBox92.Location = New System.Drawing.Point(61, 44)
+        Me.CheckBox92.Name = "CheckBox92"
+        Me.CheckBox92.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox92.TabIndex = 12
+        Me.CheckBox92.UseVisualStyleBackColor = True
+        '
+        'CheckBox93
+        '
+        Me.CheckBox93.AutoSize = True
+        Me.CheckBox93.Location = New System.Drawing.Point(86, 44)
+        Me.CheckBox93.Name = "CheckBox93"
+        Me.CheckBox93.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox93.TabIndex = 13
+        Me.CheckBox93.UseVisualStyleBackColor = True
+        '
+        'CheckBox94
+        '
+        Me.CheckBox94.AutoSize = True
+        Me.CheckBox94.Location = New System.Drawing.Point(102, 44)
+        Me.CheckBox94.Name = "CheckBox94"
+        Me.CheckBox94.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox94.TabIndex = 14
+        Me.CheckBox94.UseVisualStyleBackColor = True
+        '
+        'CheckBox95
+        '
+        Me.CheckBox95.AutoSize = True
+        Me.CheckBox95.Location = New System.Drawing.Point(118, 44)
+        Me.CheckBox95.Name = "CheckBox95"
+        Me.CheckBox95.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox95.TabIndex = 15
+        Me.CheckBox95.UseVisualStyleBackColor = True
+        '
+        'CheckBox96
+        '
+        Me.CheckBox96.AutoSize = True
+        Me.CheckBox96.Location = New System.Drawing.Point(135, 44)
+        Me.CheckBox96.Name = "CheckBox96"
+        Me.CheckBox96.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox96.TabIndex = 16
+        Me.CheckBox96.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(903, 415)
+        Me.Controls.Add(Me.GroupBox10)
+        Me.Controls.Add(Me.GroupBox11)
+        Me.Controls.Add(Me.GroupBox7)
+        Me.Controls.Add(Me.GroupBox12)
+        Me.Controls.Add(Me.GroupBox8)
+        Me.Controls.Add(Me.GroupBox9)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox3)
+        Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.ButtonRight)
         Me.Controls.Add(Me.ButtonLeft)
         Me.Controls.Add(Me.ButtonUp)
@@ -1019,9 +1322,6 @@ Partial Class Form1
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox5)
-        Me.Controls.Add(Me.GroupBox4)
-        Me.Controls.Add(Me.GroupBox3)
-        Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -1031,18 +1331,30 @@ Partial Class Form1
         Me.MenuStrip1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
-        Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox6.PerformLayout()
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.GroupBox7.ResumeLayout(False)
+        Me.GroupBox7.PerformLayout()
+        Me.GroupBox8.ResumeLayout(False)
+        Me.GroupBox8.PerformLayout()
+        Me.GroupBox9.ResumeLayout(False)
+        Me.GroupBox9.PerformLayout()
+        Me.GroupBox10.ResumeLayout(False)
+        Me.GroupBox10.PerformLayout()
+        Me.GroupBox11.ResumeLayout(False)
+        Me.GroupBox11.PerformLayout()
+        Me.GroupBox12.ResumeLayout(False)
+        Me.GroupBox12.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1139,4 +1451,60 @@ Partial Class Form1
     Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents XNavigationWrapped As ToolStripMenuItem
     Friend WithEvents YNavigationWrapped As ToolStripMenuItem
+    Friend WithEvents RadioButton7 As RadioButton
+    Friend WithEvents RadioButton8 As RadioButton
+    Friend WithEvents RadioButton9 As RadioButton
+    Friend WithEvents RadioButton10 As RadioButton
+    Friend WithEvents RadioButton11 As RadioButton
+    Friend WithEvents RadioButton12 As RadioButton
+    Friend WithEvents GroupBox7 As GroupBox
+    Friend WithEvents RadioButton13 As RadioButton
+    Friend WithEvents RadioButton14 As RadioButton
+    Friend WithEvents RadioButton15 As RadioButton
+    Friend WithEvents GroupBox8 As GroupBox
+    Friend WithEvents RadioButton16 As RadioButton
+    Friend WithEvents RadioButton17 As RadioButton
+    Friend WithEvents RadioButton18 As RadioButton
+    Friend WithEvents GroupBox9 As GroupBox
+    Friend WithEvents CheckBox65 As CheckBox
+    Friend WithEvents CheckBox66 As CheckBox
+    Friend WithEvents CheckBox67 As CheckBox
+    Friend WithEvents CheckBox68 As CheckBox
+    Friend WithEvents CheckBox69 As CheckBox
+    Friend WithEvents CheckBox70 As CheckBox
+    Friend WithEvents CheckBox71 As CheckBox
+    Friend WithEvents CheckBox72 As CheckBox
+    Friend WithEvents CheckBox73 As CheckBox
+    Friend WithEvents CheckBox74 As CheckBox
+    Friend WithEvents CheckBox75 As CheckBox
+    Friend WithEvents CheckBox76 As CheckBox
+    Friend WithEvents CheckBox77 As CheckBox
+    Friend WithEvents CheckBox78 As CheckBox
+    Friend WithEvents CheckBox79 As CheckBox
+    Friend WithEvents CheckBox80 As CheckBox
+    Friend WithEvents GroupBox10 As GroupBox
+    Friend WithEvents RadioButton19 As RadioButton
+    Friend WithEvents RadioButton20 As RadioButton
+    Friend WithEvents RadioButton21 As RadioButton
+    Friend WithEvents GroupBox11 As GroupBox
+    Friend WithEvents RadioButton22 As RadioButton
+    Friend WithEvents RadioButton23 As RadioButton
+    Friend WithEvents RadioButton24 As RadioButton
+    Friend WithEvents GroupBox12 As GroupBox
+    Friend WithEvents CheckBox81 As CheckBox
+    Friend WithEvents CheckBox82 As CheckBox
+    Friend WithEvents CheckBox83 As CheckBox
+    Friend WithEvents CheckBox84 As CheckBox
+    Friend WithEvents CheckBox85 As CheckBox
+    Friend WithEvents CheckBox86 As CheckBox
+    Friend WithEvents CheckBox87 As CheckBox
+    Friend WithEvents CheckBox88 As CheckBox
+    Friend WithEvents CheckBox89 As CheckBox
+    Friend WithEvents CheckBox90 As CheckBox
+    Friend WithEvents CheckBox91 As CheckBox
+    Friend WithEvents CheckBox92 As CheckBox
+    Friend WithEvents CheckBox93 As CheckBox
+    Friend WithEvents CheckBox94 As CheckBox
+    Friend WithEvents CheckBox95 As CheckBox
+    Friend WithEvents CheckBox96 As CheckBox
 End Class
