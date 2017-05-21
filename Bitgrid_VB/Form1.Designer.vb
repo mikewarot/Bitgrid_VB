@@ -47,9 +47,9 @@ Partial Class Form1
         Me.CheckBox15 = New System.Windows.Forms.CheckBox()
         Me.CheckBox16 = New System.Windows.Forms.CheckBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.BottomInputON = New System.Windows.Forms.RadioButton()
+        Me.BottomInputNormal = New System.Windows.Forms.RadioButton()
+        Me.BottomInputOff = New System.Windows.Forms.RadioButton()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
@@ -67,9 +67,9 @@ Partial Class Form1
         Me.RadioButton8 = New System.Windows.Forms.RadioButton()
         Me.RadioButton9 = New System.Windows.Forms.RadioButton()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
+        Me.TopInputON = New System.Windows.Forms.RadioButton()
+        Me.TopInputOff = New System.Windows.Forms.RadioButton()
+        Me.TopInputNormal = New System.Windows.Forms.RadioButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.CheckBox17 = New System.Windows.Forms.CheckBox()
         Me.CheckBox18 = New System.Windows.Forms.CheckBox()
@@ -92,9 +92,9 @@ Partial Class Form1
         Me.RadioButton14 = New System.Windows.Forms.RadioButton()
         Me.RadioButton15 = New System.Windows.Forms.RadioButton()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton17 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
+        Me.LeftInputON = New System.Windows.Forms.RadioButton()
+        Me.LeftInputOff = New System.Windows.Forms.RadioButton()
+        Me.LeftInputNormal = New System.Windows.Forms.RadioButton()
         Me.GroupBox9 = New System.Windows.Forms.GroupBox()
         Me.CheckBox65 = New System.Windows.Forms.CheckBox()
         Me.CheckBox66 = New System.Windows.Forms.CheckBox()
@@ -117,9 +117,9 @@ Partial Class Form1
         Me.RadioButton20 = New System.Windows.Forms.RadioButton()
         Me.RadioButton21 = New System.Windows.Forms.RadioButton()
         Me.GroupBox11 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton22 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton23 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton24 = New System.Windows.Forms.RadioButton()
+        Me.RightInputON = New System.Windows.Forms.RadioButton()
+        Me.RightInputOff = New System.Windows.Forms.RadioButton()
+        Me.RightInputNormal = New System.Windows.Forms.RadioButton()
         Me.GroupBox12 = New System.Windows.Forms.GroupBox()
         Me.CheckBox81 = New System.Windows.Forms.CheckBox()
         Me.CheckBox82 = New System.Windows.Forms.CheckBox()
@@ -382,43 +382,43 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Bottom Program"
         '
-        'RadioButton1
+        'BottomInputON
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(6, 19)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(84, 17)
-        Me.RadioButton1.TabIndex = 21
-        Me.RadioButton1.Text = "Override ON"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.BottomInputON.AutoSize = True
+        Me.BottomInputON.Location = New System.Drawing.Point(6, 19)
+        Me.BottomInputON.Name = "BottomInputON"
+        Me.BottomInputON.Size = New System.Drawing.Size(84, 17)
+        Me.BottomInputON.TabIndex = 21
+        Me.BottomInputON.Text = "Override ON"
+        Me.BottomInputON.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'BottomInputNormal
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Checked = True
-        Me.RadioButton2.Location = New System.Drawing.Point(6, 41)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(56, 17)
-        Me.RadioButton2.TabIndex = 22
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "normal"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.BottomInputNormal.AutoSize = True
+        Me.BottomInputNormal.Checked = True
+        Me.BottomInputNormal.Location = New System.Drawing.Point(6, 42)
+        Me.BottomInputNormal.Name = "BottomInputNormal"
+        Me.BottomInputNormal.Size = New System.Drawing.Size(56, 17)
+        Me.BottomInputNormal.TabIndex = 22
+        Me.BottomInputNormal.TabStop = True
+        Me.BottomInputNormal.Text = "normal"
+        Me.BottomInputNormal.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'BottomInputOff
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(6, 64)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(88, 17)
-        Me.RadioButton3.TabIndex = 23
-        Me.RadioButton3.Text = "Override OFF"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.BottomInputOff.AutoSize = True
+        Me.BottomInputOff.Location = New System.Drawing.Point(6, 64)
+        Me.BottomInputOff.Name = "BottomInputOff"
+        Me.BottomInputOff.Size = New System.Drawing.Size(88, 17)
+        Me.BottomInputOff.TabIndex = 23
+        Me.BottomInputOff.Text = "Override OFF"
+        Me.BottomInputOff.UseVisualStyleBackColor = True
         '
         'GroupBox5
         '
-        Me.GroupBox5.Controls.Add(Me.RadioButton1)
-        Me.GroupBox5.Controls.Add(Me.RadioButton3)
-        Me.GroupBox5.Controls.Add(Me.RadioButton2)
+        Me.GroupBox5.Controls.Add(Me.BottomInputON)
+        Me.GroupBox5.Controls.Add(Me.BottomInputOff)
+        Me.GroupBox5.Controls.Add(Me.BottomInputNormal)
         Me.GroupBox5.Location = New System.Drawing.Point(250, 261)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(107, 90)
@@ -576,9 +576,9 @@ Partial Class Form1
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.RadioButton10)
-        Me.GroupBox3.Controls.Add(Me.RadioButton11)
-        Me.GroupBox3.Controls.Add(Me.RadioButton12)
+        Me.GroupBox3.Controls.Add(Me.TopInputON)
+        Me.GroupBox3.Controls.Add(Me.TopInputOff)
+        Me.GroupBox3.Controls.Add(Me.TopInputNormal)
         Me.GroupBox3.Location = New System.Drawing.Point(250, 67)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(107, 90)
@@ -586,37 +586,37 @@ Partial Class Form1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Top Input"
         '
-        'RadioButton10
+        'TopInputON
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(6, 19)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(84, 17)
-        Me.RadioButton10.TabIndex = 21
-        Me.RadioButton10.Text = "Override ON"
-        Me.RadioButton10.UseVisualStyleBackColor = True
+        Me.TopInputON.AutoSize = True
+        Me.TopInputON.Location = New System.Drawing.Point(6, 19)
+        Me.TopInputON.Name = "TopInputON"
+        Me.TopInputON.Size = New System.Drawing.Size(84, 17)
+        Me.TopInputON.TabIndex = 21
+        Me.TopInputON.Text = "Override ON"
+        Me.TopInputON.UseVisualStyleBackColor = True
         '
-        'RadioButton11
+        'TopInputOff
         '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(6, 64)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(88, 17)
-        Me.RadioButton11.TabIndex = 23
-        Me.RadioButton11.Text = "Override OFF"
-        Me.RadioButton11.UseVisualStyleBackColor = True
+        Me.TopInputOff.AutoSize = True
+        Me.TopInputOff.Location = New System.Drawing.Point(6, 64)
+        Me.TopInputOff.Name = "TopInputOff"
+        Me.TopInputOff.Size = New System.Drawing.Size(88, 17)
+        Me.TopInputOff.TabIndex = 23
+        Me.TopInputOff.Text = "Override OFF"
+        Me.TopInputOff.UseVisualStyleBackColor = True
         '
-        'RadioButton12
+        'TopInputNormal
         '
-        Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Checked = True
-        Me.RadioButton12.Location = New System.Drawing.Point(6, 41)
-        Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(56, 17)
-        Me.RadioButton12.TabIndex = 22
-        Me.RadioButton12.TabStop = True
-        Me.RadioButton12.Text = "normal"
-        Me.RadioButton12.UseVisualStyleBackColor = True
+        Me.TopInputNormal.AutoSize = True
+        Me.TopInputNormal.Checked = True
+        Me.TopInputNormal.Location = New System.Drawing.Point(6, 41)
+        Me.TopInputNormal.Name = "TopInputNormal"
+        Me.TopInputNormal.Size = New System.Drawing.Size(56, 17)
+        Me.TopInputNormal.TabIndex = 22
+        Me.TopInputNormal.TabStop = True
+        Me.TopInputNormal.Text = "normal"
+        Me.TopInputNormal.UseVisualStyleBackColor = True
         '
         'GroupBox4
         '
@@ -833,9 +833,9 @@ Partial Class Form1
         '
         'GroupBox8
         '
-        Me.GroupBox8.Controls.Add(Me.RadioButton16)
-        Me.GroupBox8.Controls.Add(Me.RadioButton17)
-        Me.GroupBox8.Controls.Add(Me.RadioButton18)
+        Me.GroupBox8.Controls.Add(Me.LeftInputON)
+        Me.GroupBox8.Controls.Add(Me.LeftInputOff)
+        Me.GroupBox8.Controls.Add(Me.LeftInputNormal)
         Me.GroupBox8.Location = New System.Drawing.Point(51, 161)
         Me.GroupBox8.Name = "GroupBox8"
         Me.GroupBox8.Size = New System.Drawing.Size(107, 90)
@@ -843,37 +843,37 @@ Partial Class Form1
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Left Input"
         '
-        'RadioButton16
+        'LeftInputON
         '
-        Me.RadioButton16.AutoSize = True
-        Me.RadioButton16.Location = New System.Drawing.Point(6, 19)
-        Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(84, 17)
-        Me.RadioButton16.TabIndex = 21
-        Me.RadioButton16.Text = "Override ON"
-        Me.RadioButton16.UseVisualStyleBackColor = True
+        Me.LeftInputON.AutoSize = True
+        Me.LeftInputON.Location = New System.Drawing.Point(6, 19)
+        Me.LeftInputON.Name = "LeftInputON"
+        Me.LeftInputON.Size = New System.Drawing.Size(84, 17)
+        Me.LeftInputON.TabIndex = 21
+        Me.LeftInputON.Text = "Override ON"
+        Me.LeftInputON.UseVisualStyleBackColor = True
         '
-        'RadioButton17
+        'LeftInputOff
         '
-        Me.RadioButton17.AutoSize = True
-        Me.RadioButton17.Location = New System.Drawing.Point(6, 64)
-        Me.RadioButton17.Name = "RadioButton17"
-        Me.RadioButton17.Size = New System.Drawing.Size(88, 17)
-        Me.RadioButton17.TabIndex = 23
-        Me.RadioButton17.Text = "Override OFF"
-        Me.RadioButton17.UseVisualStyleBackColor = True
+        Me.LeftInputOff.AutoSize = True
+        Me.LeftInputOff.Location = New System.Drawing.Point(6, 64)
+        Me.LeftInputOff.Name = "LeftInputOff"
+        Me.LeftInputOff.Size = New System.Drawing.Size(88, 17)
+        Me.LeftInputOff.TabIndex = 23
+        Me.LeftInputOff.Text = "Override OFF"
+        Me.LeftInputOff.UseVisualStyleBackColor = True
         '
-        'RadioButton18
+        'LeftInputNormal
         '
-        Me.RadioButton18.AutoSize = True
-        Me.RadioButton18.Checked = True
-        Me.RadioButton18.Location = New System.Drawing.Point(6, 41)
-        Me.RadioButton18.Name = "RadioButton18"
-        Me.RadioButton18.Size = New System.Drawing.Size(56, 17)
-        Me.RadioButton18.TabIndex = 22
-        Me.RadioButton18.TabStop = True
-        Me.RadioButton18.Text = "normal"
-        Me.RadioButton18.UseVisualStyleBackColor = True
+        Me.LeftInputNormal.AutoSize = True
+        Me.LeftInputNormal.Checked = True
+        Me.LeftInputNormal.Location = New System.Drawing.Point(6, 41)
+        Me.LeftInputNormal.Name = "LeftInputNormal"
+        Me.LeftInputNormal.Size = New System.Drawing.Size(56, 17)
+        Me.LeftInputNormal.TabIndex = 22
+        Me.LeftInputNormal.TabStop = True
+        Me.LeftInputNormal.Text = "normal"
+        Me.LeftInputNormal.UseVisualStyleBackColor = True
         '
         'GroupBox9
         '
@@ -1090,9 +1090,9 @@ Partial Class Form1
         '
         'GroupBox11
         '
-        Me.GroupBox11.Controls.Add(Me.RadioButton22)
-        Me.GroupBox11.Controls.Add(Me.RadioButton23)
-        Me.GroupBox11.Controls.Add(Me.RadioButton24)
+        Me.GroupBox11.Controls.Add(Me.RightInputON)
+        Me.GroupBox11.Controls.Add(Me.RightInputOff)
+        Me.GroupBox11.Controls.Add(Me.RightInputNormal)
         Me.GroupBox11.Location = New System.Drawing.Point(474, 161)
         Me.GroupBox11.Name = "GroupBox11"
         Me.GroupBox11.Size = New System.Drawing.Size(107, 90)
@@ -1100,37 +1100,37 @@ Partial Class Form1
         Me.GroupBox11.TabStop = False
         Me.GroupBox11.Text = "Right Input"
         '
-        'RadioButton22
+        'RightInputON
         '
-        Me.RadioButton22.AutoSize = True
-        Me.RadioButton22.Location = New System.Drawing.Point(6, 19)
-        Me.RadioButton22.Name = "RadioButton22"
-        Me.RadioButton22.Size = New System.Drawing.Size(84, 17)
-        Me.RadioButton22.TabIndex = 21
-        Me.RadioButton22.Text = "Override ON"
-        Me.RadioButton22.UseVisualStyleBackColor = True
+        Me.RightInputON.AutoSize = True
+        Me.RightInputON.Location = New System.Drawing.Point(6, 19)
+        Me.RightInputON.Name = "RightInputON"
+        Me.RightInputON.Size = New System.Drawing.Size(84, 17)
+        Me.RightInputON.TabIndex = 21
+        Me.RightInputON.Text = "Override ON"
+        Me.RightInputON.UseVisualStyleBackColor = True
         '
-        'RadioButton23
+        'RightInputOff
         '
-        Me.RadioButton23.AutoSize = True
-        Me.RadioButton23.Location = New System.Drawing.Point(6, 64)
-        Me.RadioButton23.Name = "RadioButton23"
-        Me.RadioButton23.Size = New System.Drawing.Size(88, 17)
-        Me.RadioButton23.TabIndex = 23
-        Me.RadioButton23.Text = "Override OFF"
-        Me.RadioButton23.UseVisualStyleBackColor = True
+        Me.RightInputOff.AutoSize = True
+        Me.RightInputOff.Location = New System.Drawing.Point(6, 64)
+        Me.RightInputOff.Name = "RightInputOff"
+        Me.RightInputOff.Size = New System.Drawing.Size(88, 17)
+        Me.RightInputOff.TabIndex = 23
+        Me.RightInputOff.Text = "Override OFF"
+        Me.RightInputOff.UseVisualStyleBackColor = True
         '
-        'RadioButton24
+        'RightInputNormal
         '
-        Me.RadioButton24.AutoSize = True
-        Me.RadioButton24.Checked = True
-        Me.RadioButton24.Location = New System.Drawing.Point(6, 41)
-        Me.RadioButton24.Name = "RadioButton24"
-        Me.RadioButton24.Size = New System.Drawing.Size(56, 17)
-        Me.RadioButton24.TabIndex = 22
-        Me.RadioButton24.TabStop = True
-        Me.RadioButton24.Text = "normal"
-        Me.RadioButton24.UseVisualStyleBackColor = True
+        Me.RightInputNormal.AutoSize = True
+        Me.RightInputNormal.Checked = True
+        Me.RightInputNormal.Location = New System.Drawing.Point(6, 41)
+        Me.RightInputNormal.Name = "RightInputNormal"
+        Me.RightInputNormal.Size = New System.Drawing.Size(56, 17)
+        Me.RightInputNormal.TabIndex = 22
+        Me.RightInputNormal.TabStop = True
+        Me.RightInputNormal.Text = "normal"
+        Me.RightInputNormal.UseVisualStyleBackColor = True
         '
         'GroupBox12
         '
@@ -1433,9 +1433,9 @@ Partial Class Form1
     Friend WithEvents CheckBox62 As CheckBox
     Friend WithEvents CheckBox63 As CheckBox
     Friend WithEvents CheckBox64 As CheckBox
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
+    Friend WithEvents BottomInputON As RadioButton
+    Friend WithEvents BottomInputNormal As RadioButton
+    Friend WithEvents BottomInputOff As RadioButton
     Friend WithEvents GroupBox5 As GroupBox
     Friend WithEvents GroupBox6 As GroupBox
     Friend WithEvents RadioButton4 As RadioButton
@@ -1454,17 +1454,17 @@ Partial Class Form1
     Friend WithEvents RadioButton7 As RadioButton
     Friend WithEvents RadioButton8 As RadioButton
     Friend WithEvents RadioButton9 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
-    Friend WithEvents RadioButton11 As RadioButton
-    Friend WithEvents RadioButton12 As RadioButton
+    Friend WithEvents TopInputON As RadioButton
+    Friend WithEvents TopInputOff As RadioButton
+    Friend WithEvents TopInputNormal As RadioButton
     Friend WithEvents GroupBox7 As GroupBox
     Friend WithEvents RadioButton13 As RadioButton
     Friend WithEvents RadioButton14 As RadioButton
     Friend WithEvents RadioButton15 As RadioButton
     Friend WithEvents GroupBox8 As GroupBox
-    Friend WithEvents RadioButton16 As RadioButton
-    Friend WithEvents RadioButton17 As RadioButton
-    Friend WithEvents RadioButton18 As RadioButton
+    Friend WithEvents LeftInputON As RadioButton
+    Friend WithEvents LeftInputOff As RadioButton
+    Friend WithEvents LeftInputNormal As RadioButton
     Friend WithEvents GroupBox9 As GroupBox
     Friend WithEvents CheckBox65 As CheckBox
     Friend WithEvents CheckBox66 As CheckBox
@@ -1487,9 +1487,9 @@ Partial Class Form1
     Friend WithEvents RadioButton20 As RadioButton
     Friend WithEvents RadioButton21 As RadioButton
     Friend WithEvents GroupBox11 As GroupBox
-    Friend WithEvents RadioButton22 As RadioButton
-    Friend WithEvents RadioButton23 As RadioButton
-    Friend WithEvents RadioButton24 As RadioButton
+    Friend WithEvents RightInputON As RadioButton
+    Friend WithEvents RightInputOff As RadioButton
+    Friend WithEvents RightInputNormal As RadioButton
     Friend WithEvents GroupBox12 As GroupBox
     Friend WithEvents CheckBox81 As CheckBox
     Friend WithEvents CheckBox82 As CheckBox
