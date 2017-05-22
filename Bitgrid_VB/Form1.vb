@@ -25,8 +25,8 @@
 
     Private Sub StoreCell()
         Dim i, j As Integer
-        For i = 1 To 1
-            For j = 1 To 4
+        For i = 1 To 4
+            For j = 1 To 16
                 BitGrid(CellX, CellY).ProgramStore(i, j) = ProgramBits(i, j).Checked
             Next
         Next
@@ -34,8 +34,8 @@
 
     Private Sub LoadCell()
         Dim i, j As Integer
-        For i = 1 To 1
-            For j = 1 To 4
+        For i = 1 To 4
+            For j = 1 To 16
                 ProgramBits(i, j).Checked = BitGrid(CellX, CellY).ProgramStore(i, j)
             Next
         Next
@@ -121,10 +121,76 @@
         CellX = 0
         CellY = 0
         InputBits = 0  ' default to all off for now
+        ' Put the checkboxes into the ProgramBits array to make everything else work later
         ProgramBits(1, 1) = CheckBox1
         ProgramBits(1, 2) = CheckBox2
         ProgramBits(1, 3) = CheckBox3
         ProgramBits(1, 4) = CheckBox4
+        ProgramBits(1, 5) = CheckBox5
+        ProgramBits(1, 6) = CheckBox6
+        ProgramBits(1, 7) = CheckBox7
+        ProgramBits(1, 8) = CheckBox8
+        ProgramBits(1, 9) = CheckBox9
+        ProgramBits(1, 10) = CheckBox10
+        ProgramBits(1, 11) = CheckBox11
+        ProgramBits(1, 12) = CheckBox12
+        ProgramBits(1, 13) = CheckBox13
+        ProgramBits(1, 14) = CheckBox14
+        ProgramBits(1, 15) = CheckBox15
+        ProgramBits(1, 16) = CheckBox16
+
+        ProgramBits(2, 1) = CheckBox17
+        ProgramBits(2, 2) = CheckBox18
+        ProgramBits(2, 3) = CheckBox19
+        ProgramBits(2, 4) = CheckBox20
+        ProgramBits(2, 5) = CheckBox21
+        ProgramBits(2, 6) = CheckBox22
+        ProgramBits(2, 7) = CheckBox23
+        ProgramBits(2, 8) = CheckBox24
+        ProgramBits(2, 9) = CheckBox25
+        ProgramBits(2, 10) = CheckBox26
+        ProgramBits(2, 11) = CheckBox27
+        ProgramBits(2, 12) = CheckBox28
+        ProgramBits(2, 13) = CheckBox29
+        ProgramBits(2, 14) = CheckBox30
+        ProgramBits(2, 15) = CheckBox31
+        ProgramBits(2, 16) = CheckBox32
+
+        ProgramBits(3, 1) = CheckBox65
+        ProgramBits(3, 2) = CheckBox66
+        ProgramBits(3, 3) = CheckBox67
+        ProgramBits(3, 4) = CheckBox68
+        ProgramBits(3, 5) = CheckBox69
+        ProgramBits(3, 6) = CheckBox70
+        ProgramBits(3, 7) = CheckBox71
+        ProgramBits(3, 8) = CheckBox72
+        ProgramBits(3, 9) = CheckBox73
+        ProgramBits(3, 10) = CheckBox74
+        ProgramBits(3, 11) = CheckBox75
+        ProgramBits(3, 12) = CheckBox76
+        ProgramBits(3, 13) = CheckBox77
+        ProgramBits(3, 14) = CheckBox78
+        ProgramBits(3, 15) = CheckBox79
+        ProgramBits(3, 16) = CheckBox80
+
+        ProgramBits(4, 1) = CheckBox81
+        ProgramBits(4, 2) = CheckBox82
+        ProgramBits(4, 3) = CheckBox83
+        ProgramBits(4, 4) = CheckBox84
+        ProgramBits(4, 5) = CheckBox85
+        ProgramBits(4, 6) = CheckBox86
+        ProgramBits(4, 7) = CheckBox87
+        ProgramBits(4, 8) = CheckBox88
+        ProgramBits(4, 9) = CheckBox89
+        ProgramBits(4, 10) = CheckBox90
+        ProgramBits(4, 11) = CheckBox91
+        ProgramBits(4, 12) = CheckBox92
+        ProgramBits(4, 13) = CheckBox93
+        ProgramBits(4, 14) = CheckBox94
+        ProgramBits(4, 15) = CheckBox95
+        ProgramBits(4, 16) = CheckBox96
+
+
         ' ToolStripStatusLabel1.Text = "Cell(" & X.ToString & "," & Y.ToString & ")"
         Update_Status_Line()
     End Sub
