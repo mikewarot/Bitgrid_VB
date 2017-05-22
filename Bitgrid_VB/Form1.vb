@@ -32,6 +32,15 @@
         Next
     End Sub
 
+    Private Sub LoadCell()
+        Dim i, j As Integer
+        For i = 1 To 1
+            For j = 1 To 4
+                ProgramBits(i, j).Checked = BitGrid(CellX, CellY).ProgramStore(i, j)
+            Next
+        Next
+    End Sub
+
     Private Sub ButtonRight_Click(sender As Object, e As EventArgs) Handles ButtonRight.Click
         StoreCell()
         CellX = CellX + 1
@@ -42,6 +51,7 @@
                 CellX = 7
             End If
         End If
+        LoadCell()
         Update_Status_Line()
     End Sub
 
@@ -55,6 +65,7 @@
                 CellX = 0
             End If
         End If
+        LoadCell()
         Update_Status_Line()
     End Sub
 
@@ -68,6 +79,7 @@
                 CellY = 0
             End If
         End If
+        LoadCell()
         Update_Status_Line()
     End Sub
 
@@ -81,6 +93,7 @@
                 CellY = 7
             End If
         End If
+        LoadCell()
         Update_Status_Line()
     End Sub
 
@@ -103,7 +116,6 @@
             For j = 0 To 7
                 ReDim BitGrid(i, j).ProgramStore(4, 16)
                 ReDim BitGrid(i, j).OverrideControl(4, 3)
-
             Next
         Next
         CellX = 0
