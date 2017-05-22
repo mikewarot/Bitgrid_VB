@@ -98,11 +98,24 @@
     End Sub
 
     Private Sub ComputeInputs()
+        Dim i, j As Integer
+
         InputBits = 0
         If BottomInputON.Checked Then InputBits = InputBits + &H8
         If TopInputON.Checked Then InputBits = InputBits + &H4
         If LeftInputON.Checked Then InputBits = InputBits + &H2
         If RightInputON.Checked Then InputBits = InputBits + &H1
+
+        ' highlight the appropriate checkboxes
+        For i = 1 To 4
+            For j = 1 To 16
+                If (InputBits + 1) = j Then
+                    ProgramBits(i, j).BackColor = Color.Red
+                Else
+                    ProgramBits(i, j).BackColor = SystemColors.Control
+                End If
+            Next
+        Next
     End Sub
 
     Private Sub InputOptionChanged(sender As Object, e As EventArgs) Handles TopInputON.CheckedChanged, TopInputON.Click, TopInputOff.Click, TopInputNormal.Click, RightInputON.Click, RightInputOff.Click, RightInputNormal.Click, LeftInputON.Click, LeftInputOff.Click, LeftInputNormal.Click, BottomInputON.Click, BottomInputOff.Click, BottomInputNormal.Click
@@ -122,6 +135,7 @@
         CellY = 0
         InputBits = 0  ' default to all off for now
         ' Put the checkboxes into the ProgramBits array to make everything else work later
+        ' it is a huge kludge, but it is effective... so it stays for now
         ProgramBits(1, 1) = CheckBox1
         ProgramBits(1, 2) = CheckBox2
         ProgramBits(1, 3) = CheckBox3

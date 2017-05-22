@@ -646,11 +646,13 @@ Partial Class Form1
         'CheckBox17
         '
         Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.BackColor = System.Drawing.SystemColors.Control
+        Me.CheckBox17.ForeColor = System.Drawing.SystemColors.ControlText
         Me.CheckBox17.Location = New System.Drawing.Point(13, 24)
         Me.CheckBox17.Name = "CheckBox17"
         Me.CheckBox17.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox17.TabIndex = 1
-        Me.CheckBox17.UseVisualStyleBackColor = True
+        Me.CheckBox17.UseVisualStyleBackColor = False
         '
         'CheckBox18
         '
