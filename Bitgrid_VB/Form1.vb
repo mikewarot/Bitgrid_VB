@@ -1,6 +1,13 @@
 ﻿Public Class Form1
-    Dim X, Y As Integer
+    Dim CellX, CellY As Integer
     Dim InputBits As Integer
+    Dim ProgramBits(4, 16) As System.Windows.Forms.CheckBox
+    Structure BitGridCell
+        Public OverrideControl(,) As Boolean
+        Public ProgramStore(,) As Boolean
+    End Structure
+
+    Dim BitGrid(8, 8) As BitGridCell
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
         Application.Exit()
@@ -11,54 +18,67 @@
         MsgBox("Bitgrid Simulator - Version 0.0001", MsgBoxStyle.OkCancel)
     End Sub
 
-    Private Sub Update_Status_Line
-        ToolStripStatusLabel1.Text = "Cell(" & X.ToString & "," & Y.ToString & ")"
+    Private Sub Update_Status_Line()
+        ToolStripStatusLabel1.Text = "Cell(" & CellX.ToString & "," & CellY.ToString & ")"
         ToolStripStatusLabel2.Text = "Input(" & InputBits.ToString("X") & ")  Output(" & "0" & ")"
     End Sub
 
+    Private Sub StoreCell()
+        Dim i, j As Integer
+        For i = 1 To 1
+            For j = 1 To 4
+                BitGrid(CellX, CellY).ProgramStore(i, j) = ProgramBits(i, j).Checked
+            Next
+        Next
+    End Sub
+
     Private Sub ButtonRight_Click(sender As Object, e As EventArgs) Handles ButtonRight.Click
-        X = X + 1
-        If X > 7 Then
+        StoreCell()
+        CellX = CellX + 1
+        If CellX > 7 Then
             If XNavigationWrapped.Checked Then
-                X = 0
+                CellX = 0
             Else
-                X = 7
+                CellX = 7
             End If
         End If
         Update_Status_Line()
     End Sub
 
     Private Sub ButtonLeft_Click(sender As Object, e As EventArgs) Handles ButtonLeft.Click
-        X = X - 1
-        If X < 0 Then
+        StoreCell()
+        CellX = CellX - 1
+        If CellX < 0 Then
             If XNavigationWrapped.Checked Then
-                X = 7
+                CellX = 7
             Else
-                X = 0
+                CellX = 0
             End If
         End If
         Update_Status_Line()
     End Sub
 
     Private Sub ButtonDown_Click(sender As Object, e As EventArgs) Handles ButtonDown.Click
-        Y = Y - 1
-        If Y < 0 Then
+        StoreCell()
+        CellY = CellY - 1
+        If CellY < 0 Then
             If YNavigationWrapped.Checked Then
-                Y = 7
+                CellY = 7
             Else
-                Y = 0
+                CellY = 0
             End If
         End If
         Update_Status_Line()
     End Sub
 
     Private Sub ButtonUp_Click(sender As Object, e As EventArgs) Handles ButtonUp.Click
-        Y = Y + 1
-        If Y > 7 Then
+        StoreCell()
+        CellY = CellY + 1
+        If CellY > 7 Then
             If YNavigationWrapped.Checked Then
-                Y = 0
+                CellY = 0
             Else
-                Y = 7
+                CellY = 7
             End If
         End If
         Update_Status_Line()
@@ -78,9 +98,21 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        X = 0
-        Y = 0
+        Dim i, j As Integer
+        For i = 0 To 7
+            For j = 0 To 7
+                ReDim BitGrid(i, j).ProgramStore(4, 16)
+                ReDim BitGrid(i, j).OverrideControl(4, 3)
+
+            Next
+        Next
+        CellX = 0
+        CellY = 0
         InputBits = 0  ' default to all off for now
+        ProgramBits(1, 1) = CheckBox1
+        ProgramBits(1, 2) = CheckBox2
+        ProgramBits(1, 3) = CheckBox3
+        ProgramBits(1, 4) = CheckBox4
         ' ToolStripStatusLabel1.Text = "Cell(" & X.ToString & "," & Y.ToString & ")"
         Update_Status_Line()
     End Sub
