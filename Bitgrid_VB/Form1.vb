@@ -131,6 +131,12 @@
 
     End Sub
 
+    Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
+        Dim file = My.Computer.FileSystem.OpenTextFileWriter("c:\bitgrid_VB\test.txt", False, System.Text.Encoding.ASCII)
+        file.WriteLine("Here is the first string.")
+        file.Close()
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim i, j As Integer
         For i = 0 To 7
