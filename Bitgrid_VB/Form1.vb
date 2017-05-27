@@ -132,8 +132,20 @@
     End Sub
 
     Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
+        Dim i, j As Integer
+
         Dim file = My.Computer.FileSystem.OpenTextFileWriter("c:\bitgrid_VB\test.txt", False, System.Text.Encoding.ASCII)
-        file.WriteLine("Here is the first string.")
+        '        file.WriteLine("Here is the first string.")
+        For i = 1 To 4
+            For j = 1 To 16
+                file.Write(ProgramBits(i, j).Checked)
+                If j < 16 Then
+                    file.Write(",")
+                Else
+                    file.WriteLine()
+                End If
+            Next
+        Next
         file.Close()
     End Sub
 
