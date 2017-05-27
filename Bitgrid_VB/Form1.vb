@@ -128,7 +128,20 @@
     End Sub
 
     Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
+        Dim i, j As Integer
+        Dim s As String
+        Dim Bits() As String
 
+        Dim file = My.Computer.FileSystem.OpenTextFileReader("c:\bitgrid_VB\test.txt", System.Text.Encoding.ASCII)
+        For i = 1 To 4
+            s = file.ReadLine()
+            Bits = Split(s, ",")
+            For j = 1 To 16
+                ProgramBits(i, j).Checked = Convert.ToBoolean(Bits(j - 1).ToString)
+
+            Next
+        Next
+        file.Close()
     End Sub
 
     Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
