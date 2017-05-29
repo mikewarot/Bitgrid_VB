@@ -106,6 +106,10 @@
         If LeftInputON.Checked Then InputBits = InputBits + &H2
         If RightInputON.Checked Then InputBits = InputBits + &H1
 
+        If (InputBits And &H8) <> 0 Then
+
+        End If
+
         ' highlight the appropriate checkboxes
         For i = 1 To 4
             For j = 1 To 16
@@ -160,6 +164,10 @@
             Next
         Next
         file.Close()
+    End Sub
+
+    Private Sub GroupBox5_Enter(sender As Object, e As EventArgs) Handles BottomInputBox.Enter
+
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load

@@ -53,7 +53,7 @@ Partial Class Form1
         Me.BottomInputON = New System.Windows.Forms.RadioButton()
         Me.BottomInputNormal = New System.Windows.Forms.RadioButton()
         Me.BottomInputOff = New System.Windows.Forms.RadioButton()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.BottomInputBox = New System.Windows.Forms.GroupBox()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
@@ -142,7 +142,7 @@ Partial Class Form1
         Me.CheckBox96 = New System.Windows.Forms.CheckBox()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
+        Me.BottomInputBox.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -175,24 +175,24 @@ Partial Class Form1
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
         Me.ToolStripMenuItem2.Text = "&Open"
         '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
         Me.ToolStripMenuItem3.Text = "&Save"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(100, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'ToolStripMenuItem1
@@ -434,17 +434,17 @@ Partial Class Form1
         Me.BottomInputOff.Text = "Override OFF"
         Me.BottomInputOff.UseVisualStyleBackColor = True
         '
-        'GroupBox5
+        'BottomInputBox
         '
-        Me.GroupBox5.Controls.Add(Me.BottomInputON)
-        Me.GroupBox5.Controls.Add(Me.BottomInputOff)
-        Me.GroupBox5.Controls.Add(Me.BottomInputNormal)
-        Me.GroupBox5.Location = New System.Drawing.Point(250, 261)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(107, 90)
-        Me.GroupBox5.TabIndex = 24
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Bottom Input"
+        Me.BottomInputBox.Controls.Add(Me.BottomInputON)
+        Me.BottomInputBox.Controls.Add(Me.BottomInputOff)
+        Me.BottomInputBox.Controls.Add(Me.BottomInputNormal)
+        Me.BottomInputBox.Location = New System.Drawing.Point(250, 261)
+        Me.BottomInputBox.Name = "BottomInputBox"
+        Me.BottomInputBox.Size = New System.Drawing.Size(107, 90)
+        Me.BottomInputBox.TabIndex = 24
+        Me.BottomInputBox.TabStop = False
+        Me.BottomInputBox.Text = "Bottom Input"
         '
         'GroupBox6
         '
@@ -1343,7 +1343,7 @@ Partial Class Form1
         Me.Controls.Add(Me.ButtonDown)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.GroupBox6)
-        Me.Controls.Add(Me.GroupBox5)
+        Me.Controls.Add(Me.BottomInputBox)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -1353,8 +1353,8 @@ Partial Class Form1
         Me.MenuStrip1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
+        Me.BottomInputBox.ResumeLayout(False)
+        Me.BottomInputBox.PerformLayout()
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox6.PerformLayout()
         Me.StatusStrip1.ResumeLayout(False)
@@ -1458,7 +1458,7 @@ Partial Class Form1
     Friend WithEvents BottomInputON As RadioButton
     Friend WithEvents BottomInputNormal As RadioButton
     Friend WithEvents BottomInputOff As RadioButton
-    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents BottomInputBox As GroupBox
     Friend WithEvents GroupBox6 As GroupBox
     Friend WithEvents RadioButton4 As RadioButton
     Friend WithEvents RadioButton5 As RadioButton
