@@ -136,22 +136,31 @@
         Dim s As String
         Dim Bits() As String
 
-        Dim file = My.Computer.FileSystem.OpenTextFileReader("c:\bitgrid_VB\test.txt", System.Text.Encoding.ASCII)
-        For i = 1 To 4
-            s = file.ReadLine()
-            Bits = Split(s, ",")
-            For j = 1 To 16
-                ProgramBits(i, j).Checked = Convert.ToBoolean(Bits(j - 1).ToString)
+        Dim OpenFileDialog1 As New OpenFileDialog()
+        OpenFileDialog1.InitialDirectory = "c:\bitgrid_VB\"
+        OpenFileDialog1.Filter = "bitgrid files (*.bitgrid)|*.bitgrid|All files (*.*)|*.*"
+        OpenFileDialog1.FilterIndex = 2
+        OpenFileDialog1.RestoreDirectory = True
 
+        If OpenFileDialog1.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
+
+            Dim file = My.Computer.FileSystem.OpenTextFileReader(OpenFileDialog1.FileName, System.Text.Encoding.ASCII)
+            For i = 1 To 4
+                s = file.ReadLine()
+                Bits = Split(s, ",")
+                For j = 1 To 16
+                    ProgramBits(i, j).Checked = Convert.ToBoolean(Bits(j - 1).ToString)
+
+                Next
             Next
-        Next
-        file.Close()
+            file.Close()
+        End If
     End Sub
 
     Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
         Dim i, j As Integer
 
-        Dim file = My.Computer.FileSystem.OpenTextFileWriter("c:\bitgrid_VB\test.txt", False, System.Text.Encoding.ASCII)
+        Dim file = My.Computer.FileSystem.OpenTextFileWriter("c:\bitgrid_VB\test.bitgrid", False, System.Text.Encoding.ASCII)
         '        file.WriteLine("Here is the first string.")
         For i = 1 To 4
             For j = 1 To 16
