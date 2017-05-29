@@ -54,7 +54,7 @@ Partial Class Form1
         Me.BottomInputNormal = New System.Windows.Forms.RadioButton()
         Me.BottomInputOff = New System.Windows.Forms.RadioButton()
         Me.BottomInputBox = New System.Windows.Forms.GroupBox()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.BottomOutputBox = New System.Windows.Forms.GroupBox()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton6 = New System.Windows.Forms.RadioButton()
@@ -65,11 +65,11 @@ Partial Class Form1
         Me.ButtonUp = New System.Windows.Forms.Button()
         Me.ButtonLeft = New System.Windows.Forms.Button()
         Me.ButtonRight = New System.Windows.Forms.Button()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.TopOutputBox = New System.Windows.Forms.GroupBox()
         Me.RadioButton7 = New System.Windows.Forms.RadioButton()
         Me.RadioButton8 = New System.Windows.Forms.RadioButton()
         Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.TopInputBox = New System.Windows.Forms.GroupBox()
         Me.TopInputON = New System.Windows.Forms.RadioButton()
         Me.TopInputOff = New System.Windows.Forms.RadioButton()
         Me.TopInputNormal = New System.Windows.Forms.RadioButton()
@@ -90,11 +90,11 @@ Partial Class Form1
         Me.CheckBox30 = New System.Windows.Forms.CheckBox()
         Me.CheckBox31 = New System.Windows.Forms.CheckBox()
         Me.CheckBox32 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.LeftOutputBox = New System.Windows.Forms.GroupBox()
         Me.RadioButton13 = New System.Windows.Forms.RadioButton()
         Me.RadioButton14 = New System.Windows.Forms.RadioButton()
         Me.RadioButton15 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.LeftInputBox = New System.Windows.Forms.GroupBox()
         Me.LeftInputON = New System.Windows.Forms.RadioButton()
         Me.LeftInputOff = New System.Windows.Forms.RadioButton()
         Me.LeftInputNormal = New System.Windows.Forms.RadioButton()
@@ -115,11 +115,11 @@ Partial Class Form1
         Me.CheckBox78 = New System.Windows.Forms.CheckBox()
         Me.CheckBox79 = New System.Windows.Forms.CheckBox()
         Me.CheckBox80 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.RightOutputBox = New System.Windows.Forms.GroupBox()
         Me.RadioButton19 = New System.Windows.Forms.RadioButton()
         Me.RadioButton20 = New System.Windows.Forms.RadioButton()
         Me.RadioButton21 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.RightInputBox = New System.Windows.Forms.GroupBox()
         Me.RightInputON = New System.Windows.Forms.RadioButton()
         Me.RightInputOff = New System.Windows.Forms.RadioButton()
         Me.RightInputNormal = New System.Windows.Forms.RadioButton()
@@ -143,16 +143,16 @@ Partial Class Form1
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.BottomInputBox.SuspendLayout()
-        Me.GroupBox6.SuspendLayout()
+        Me.BottomOutputBox.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
+        Me.TopOutputBox.SuspendLayout()
+        Me.TopInputBox.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
-        Me.GroupBox7.SuspendLayout()
-        Me.GroupBox8.SuspendLayout()
+        Me.LeftOutputBox.SuspendLayout()
+        Me.LeftInputBox.SuspendLayout()
         Me.GroupBox9.SuspendLayout()
-        Me.GroupBox10.SuspendLayout()
-        Me.GroupBox11.SuspendLayout()
+        Me.RightOutputBox.SuspendLayout()
+        Me.RightInputBox.SuspendLayout()
         Me.GroupBox12.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -446,17 +446,17 @@ Partial Class Form1
         Me.BottomInputBox.TabStop = False
         Me.BottomInputBox.Text = "Bottom Input"
         '
-        'GroupBox6
+        'BottomOutputBox
         '
-        Me.GroupBox6.Controls.Add(Me.RadioButton4)
-        Me.GroupBox6.Controls.Add(Me.RadioButton5)
-        Me.GroupBox6.Controls.Add(Me.RadioButton6)
-        Me.GroupBox6.Location = New System.Drawing.Point(521, 261)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(107, 90)
-        Me.GroupBox6.TabIndex = 25
-        Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "Bottom Output"
+        Me.BottomOutputBox.Controls.Add(Me.RadioButton4)
+        Me.BottomOutputBox.Controls.Add(Me.RadioButton5)
+        Me.BottomOutputBox.Controls.Add(Me.RadioButton6)
+        Me.BottomOutputBox.Location = New System.Drawing.Point(521, 261)
+        Me.BottomOutputBox.Name = "BottomOutputBox"
+        Me.BottomOutputBox.Size = New System.Drawing.Size(107, 90)
+        Me.BottomOutputBox.TabIndex = 25
+        Me.BottomOutputBox.TabStop = False
+        Me.BottomOutputBox.Text = "Bottom Output"
         '
         'RadioButton4
         '
@@ -550,17 +550,17 @@ Partial Class Form1
         Me.ButtonRight.Text = "Right"
         Me.ButtonRight.UseVisualStyleBackColor = True
         '
-        'GroupBox2
+        'TopOutputBox
         '
-        Me.GroupBox2.Controls.Add(Me.RadioButton7)
-        Me.GroupBox2.Controls.Add(Me.RadioButton8)
-        Me.GroupBox2.Controls.Add(Me.RadioButton9)
-        Me.GroupBox2.Location = New System.Drawing.Point(521, 67)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(107, 90)
-        Me.GroupBox2.TabIndex = 33
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Top Output"
+        Me.TopOutputBox.Controls.Add(Me.RadioButton7)
+        Me.TopOutputBox.Controls.Add(Me.RadioButton8)
+        Me.TopOutputBox.Controls.Add(Me.RadioButton9)
+        Me.TopOutputBox.Location = New System.Drawing.Point(521, 67)
+        Me.TopOutputBox.Name = "TopOutputBox"
+        Me.TopOutputBox.Size = New System.Drawing.Size(107, 90)
+        Me.TopOutputBox.TabIndex = 33
+        Me.TopOutputBox.TabStop = False
+        Me.TopOutputBox.Text = "Top Output"
         '
         'RadioButton7
         '
@@ -594,17 +594,17 @@ Partial Class Form1
         Me.RadioButton9.Text = "normal"
         Me.RadioButton9.UseVisualStyleBackColor = True
         '
-        'GroupBox3
+        'TopInputBox
         '
-        Me.GroupBox3.Controls.Add(Me.TopInputON)
-        Me.GroupBox3.Controls.Add(Me.TopInputOff)
-        Me.GroupBox3.Controls.Add(Me.TopInputNormal)
-        Me.GroupBox3.Location = New System.Drawing.Point(250, 67)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(107, 90)
-        Me.GroupBox3.TabIndex = 32
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Top Input"
+        Me.TopInputBox.Controls.Add(Me.TopInputON)
+        Me.TopInputBox.Controls.Add(Me.TopInputOff)
+        Me.TopInputBox.Controls.Add(Me.TopInputNormal)
+        Me.TopInputBox.Location = New System.Drawing.Point(250, 67)
+        Me.TopInputBox.Name = "TopInputBox"
+        Me.TopInputBox.Size = New System.Drawing.Size(107, 90)
+        Me.TopInputBox.TabIndex = 32
+        Me.TopInputBox.TabStop = False
+        Me.TopInputBox.Text = "Top Input"
         '
         'TopInputON
         '
@@ -809,17 +809,17 @@ Partial Class Form1
         Me.CheckBox32.TabIndex = 16
         Me.CheckBox32.UseVisualStyleBackColor = True
         '
-        'GroupBox7
+        'LeftOutputBox
         '
-        Me.GroupBox7.Controls.Add(Me.RadioButton13)
-        Me.GroupBox7.Controls.Add(Me.RadioButton14)
-        Me.GroupBox7.Controls.Add(Me.RadioButton15)
-        Me.GroupBox7.Location = New System.Drawing.Point(322, 161)
-        Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(107, 90)
-        Me.GroupBox7.TabIndex = 36
-        Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "Left Output"
+        Me.LeftOutputBox.Controls.Add(Me.RadioButton13)
+        Me.LeftOutputBox.Controls.Add(Me.RadioButton14)
+        Me.LeftOutputBox.Controls.Add(Me.RadioButton15)
+        Me.LeftOutputBox.Location = New System.Drawing.Point(322, 161)
+        Me.LeftOutputBox.Name = "LeftOutputBox"
+        Me.LeftOutputBox.Size = New System.Drawing.Size(107, 90)
+        Me.LeftOutputBox.TabIndex = 36
+        Me.LeftOutputBox.TabStop = False
+        Me.LeftOutputBox.Text = "Left Output"
         '
         'RadioButton13
         '
@@ -853,17 +853,17 @@ Partial Class Form1
         Me.RadioButton15.Text = "normal"
         Me.RadioButton15.UseVisualStyleBackColor = True
         '
-        'GroupBox8
+        'LeftInputBox
         '
-        Me.GroupBox8.Controls.Add(Me.LeftInputON)
-        Me.GroupBox8.Controls.Add(Me.LeftInputOff)
-        Me.GroupBox8.Controls.Add(Me.LeftInputNormal)
-        Me.GroupBox8.Location = New System.Drawing.Point(51, 161)
-        Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(107, 90)
-        Me.GroupBox8.TabIndex = 35
-        Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "Left Input"
+        Me.LeftInputBox.Controls.Add(Me.LeftInputON)
+        Me.LeftInputBox.Controls.Add(Me.LeftInputOff)
+        Me.LeftInputBox.Controls.Add(Me.LeftInputNormal)
+        Me.LeftInputBox.Location = New System.Drawing.Point(51, 161)
+        Me.LeftInputBox.Name = "LeftInputBox"
+        Me.LeftInputBox.Size = New System.Drawing.Size(107, 90)
+        Me.LeftInputBox.TabIndex = 35
+        Me.LeftInputBox.TabStop = False
+        Me.LeftInputBox.Text = "Left Input"
         '
         'LeftInputON
         '
@@ -1066,17 +1066,17 @@ Partial Class Form1
         Me.CheckBox80.TabIndex = 16
         Me.CheckBox80.UseVisualStyleBackColor = True
         '
-        'GroupBox10
+        'RightOutputBox
         '
-        Me.GroupBox10.Controls.Add(Me.RadioButton19)
-        Me.GroupBox10.Controls.Add(Me.RadioButton20)
-        Me.GroupBox10.Controls.Add(Me.RadioButton21)
-        Me.GroupBox10.Location = New System.Drawing.Point(745, 161)
-        Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(107, 90)
-        Me.GroupBox10.TabIndex = 39
-        Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "Right Output"
+        Me.RightOutputBox.Controls.Add(Me.RadioButton19)
+        Me.RightOutputBox.Controls.Add(Me.RadioButton20)
+        Me.RightOutputBox.Controls.Add(Me.RadioButton21)
+        Me.RightOutputBox.Location = New System.Drawing.Point(745, 161)
+        Me.RightOutputBox.Name = "RightOutputBox"
+        Me.RightOutputBox.Size = New System.Drawing.Size(107, 90)
+        Me.RightOutputBox.TabIndex = 39
+        Me.RightOutputBox.TabStop = False
+        Me.RightOutputBox.Text = "Right Output"
         '
         'RadioButton19
         '
@@ -1110,17 +1110,17 @@ Partial Class Form1
         Me.RadioButton21.Text = "normal"
         Me.RadioButton21.UseVisualStyleBackColor = True
         '
-        'GroupBox11
+        'RightInputBox
         '
-        Me.GroupBox11.Controls.Add(Me.RightInputON)
-        Me.GroupBox11.Controls.Add(Me.RightInputOff)
-        Me.GroupBox11.Controls.Add(Me.RightInputNormal)
-        Me.GroupBox11.Location = New System.Drawing.Point(474, 161)
-        Me.GroupBox11.Name = "GroupBox11"
-        Me.GroupBox11.Size = New System.Drawing.Size(107, 90)
-        Me.GroupBox11.TabIndex = 38
-        Me.GroupBox11.TabStop = False
-        Me.GroupBox11.Text = "Right Input"
+        Me.RightInputBox.Controls.Add(Me.RightInputON)
+        Me.RightInputBox.Controls.Add(Me.RightInputOff)
+        Me.RightInputBox.Controls.Add(Me.RightInputNormal)
+        Me.RightInputBox.Location = New System.Drawing.Point(474, 161)
+        Me.RightInputBox.Name = "RightInputBox"
+        Me.RightInputBox.Size = New System.Drawing.Size(107, 90)
+        Me.RightInputBox.TabIndex = 38
+        Me.RightInputBox.TabStop = False
+        Me.RightInputBox.Text = "Right Input"
         '
         'RightInputON
         '
@@ -1328,21 +1328,21 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(903, 415)
-        Me.Controls.Add(Me.GroupBox10)
-        Me.Controls.Add(Me.GroupBox11)
-        Me.Controls.Add(Me.GroupBox7)
+        Me.Controls.Add(Me.RightOutputBox)
+        Me.Controls.Add(Me.RightInputBox)
+        Me.Controls.Add(Me.LeftOutputBox)
         Me.Controls.Add(Me.GroupBox12)
-        Me.Controls.Add(Me.GroupBox8)
+        Me.Controls.Add(Me.LeftInputBox)
         Me.Controls.Add(Me.GroupBox9)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox3)
+        Me.Controls.Add(Me.TopOutputBox)
+        Me.Controls.Add(Me.TopInputBox)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.ButtonRight)
         Me.Controls.Add(Me.ButtonLeft)
         Me.Controls.Add(Me.ButtonUp)
         Me.Controls.Add(Me.ButtonDown)
         Me.Controls.Add(Me.StatusStrip1)
-        Me.Controls.Add(Me.GroupBox6)
+        Me.Controls.Add(Me.BottomOutputBox)
         Me.Controls.Add(Me.BottomInputBox)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -1355,26 +1355,26 @@ Partial Class Form1
         Me.GroupBox1.PerformLayout()
         Me.BottomInputBox.ResumeLayout(False)
         Me.BottomInputBox.PerformLayout()
-        Me.GroupBox6.ResumeLayout(False)
-        Me.GroupBox6.PerformLayout()
+        Me.BottomOutputBox.ResumeLayout(False)
+        Me.BottomOutputBox.PerformLayout()
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
+        Me.TopOutputBox.ResumeLayout(False)
+        Me.TopOutputBox.PerformLayout()
+        Me.TopInputBox.ResumeLayout(False)
+        Me.TopInputBox.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
-        Me.GroupBox7.ResumeLayout(False)
-        Me.GroupBox7.PerformLayout()
-        Me.GroupBox8.ResumeLayout(False)
-        Me.GroupBox8.PerformLayout()
+        Me.LeftOutputBox.ResumeLayout(False)
+        Me.LeftOutputBox.PerformLayout()
+        Me.LeftInputBox.ResumeLayout(False)
+        Me.LeftInputBox.PerformLayout()
         Me.GroupBox9.ResumeLayout(False)
         Me.GroupBox9.PerformLayout()
-        Me.GroupBox10.ResumeLayout(False)
-        Me.GroupBox10.PerformLayout()
-        Me.GroupBox11.ResumeLayout(False)
-        Me.GroupBox11.PerformLayout()
+        Me.RightOutputBox.ResumeLayout(False)
+        Me.RightOutputBox.PerformLayout()
+        Me.RightInputBox.ResumeLayout(False)
+        Me.RightInputBox.PerformLayout()
         Me.GroupBox12.ResumeLayout(False)
         Me.GroupBox12.PerformLayout()
         Me.ResumeLayout(False)
@@ -1404,7 +1404,7 @@ Partial Class Form1
     Friend WithEvents CheckBox15 As CheckBox
     Friend WithEvents CheckBox16 As CheckBox
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents TopOutputBox As GroupBox
     Friend WithEvents CheckBox17 As CheckBox
     Friend WithEvents CheckBox18 As CheckBox
     Friend WithEvents CheckBox19 As CheckBox
@@ -1421,7 +1421,7 @@ Partial Class Form1
     Friend WithEvents CheckBox30 As CheckBox
     Friend WithEvents CheckBox31 As CheckBox
     Friend WithEvents CheckBox32 As CheckBox
-    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents TopInputBox As GroupBox
     Friend WithEvents CheckBox33 As CheckBox
     Friend WithEvents CheckBox34 As CheckBox
     Friend WithEvents CheckBox35 As CheckBox
@@ -1459,7 +1459,7 @@ Partial Class Form1
     Friend WithEvents BottomInputNormal As RadioButton
     Friend WithEvents BottomInputOff As RadioButton
     Friend WithEvents BottomInputBox As GroupBox
-    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents BottomOutputBox As GroupBox
     Friend WithEvents RadioButton4 As RadioButton
     Friend WithEvents RadioButton5 As RadioButton
     Friend WithEvents RadioButton6 As RadioButton
@@ -1479,11 +1479,11 @@ Partial Class Form1
     Friend WithEvents TopInputON As RadioButton
     Friend WithEvents TopInputOff As RadioButton
     Friend WithEvents TopInputNormal As RadioButton
-    Friend WithEvents GroupBox7 As GroupBox
+    Friend WithEvents LeftOutputBox As GroupBox
     Friend WithEvents RadioButton13 As RadioButton
     Friend WithEvents RadioButton14 As RadioButton
     Friend WithEvents RadioButton15 As RadioButton
-    Friend WithEvents GroupBox8 As GroupBox
+    Friend WithEvents LeftInputBox As GroupBox
     Friend WithEvents LeftInputON As RadioButton
     Friend WithEvents LeftInputOff As RadioButton
     Friend WithEvents LeftInputNormal As RadioButton
@@ -1504,11 +1504,11 @@ Partial Class Form1
     Friend WithEvents CheckBox78 As CheckBox
     Friend WithEvents CheckBox79 As CheckBox
     Friend WithEvents CheckBox80 As CheckBox
-    Friend WithEvents GroupBox10 As GroupBox
+    Friend WithEvents RightOutputBox As GroupBox
     Friend WithEvents RadioButton19 As RadioButton
     Friend WithEvents RadioButton20 As RadioButton
     Friend WithEvents RadioButton21 As RadioButton
-    Friend WithEvents GroupBox11 As GroupBox
+    Friend WithEvents RightInputBox As GroupBox
     Friend WithEvents RightInputON As RadioButton
     Friend WithEvents RightInputOff As RadioButton
     Friend WithEvents RightInputNormal As RadioButton
